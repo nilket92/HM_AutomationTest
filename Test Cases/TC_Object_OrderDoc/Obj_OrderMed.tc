@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Obj_OrderMed</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6d9e7820-2d26-4451-8965-0051745ef8d7</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('ExcelData_Drug')</defaultValue>
+      <description></description>
+      <id>5878a41f-504b-4630-87ff-f283a7e7ab2d</id>
+      <masked>false</masked>
+      <name>itemname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ExcelData_Drug')</defaultValue>
+      <description></description>
+      <id>774577b8-811d-4c97-828e-5af5e1e04546</id>
+      <masked>false</masked>
+      <name>dose</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ExcelData_Drug')</defaultValue>
+      <description></description>
+      <id>60d29121-90f0-4c2a-96bd-a2dc8e6ced16</id>
+      <masked>false</masked>
+      <name>administrationUsage</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ExcelData_Drug')</defaultValue>
+      <description></description>
+      <id>57d97d52-2744-4440-985f-7274b3afeb73</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+</TestCaseEntity>

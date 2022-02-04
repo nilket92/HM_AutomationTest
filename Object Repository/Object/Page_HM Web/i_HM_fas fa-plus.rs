@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_HM_fas fa-plus</name>
+   <tag></tag>
+   <elementGuidId>5aca2617-38c5-4232-80b2-b99a26aa47f6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[@id='sub-order-tab']/i)[5]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fas fa-plus</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;order&quot;)/ipd-detail[@class=&quot;ng-tns-c25-10&quot;]/div[@class=&quot;row ipd-order&quot;]/div[@class=&quot;col-12&quot;]/table[@class=&quot;table tbl-fix-head tbl-ipd-order&quot;]/tbody[@class=&quot;ng-tns-c25-10 ng-star-inserted&quot;]/tr[@class=&quot;ng-tns-c25-10&quot;]/td[@class=&quot;ng-tns-c25-10&quot;]/order[@class=&quot;ng-tns-c25-10 ng-star-inserted&quot;]/div[2]/div[@class=&quot;nav-menu-overflow&quot;]/div[1]/ul[@class=&quot;nav nav-pills sub-menu-tab&quot;]/li[@class=&quot;nav-item ng-star-inserted&quot;]/a[@id=&quot;sub-order-tab&quot;]/i[@class=&quot;fas fa-plus&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>(//a[@id='sub-order-tab']/i)[5]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[5]/a/i</value>
+   </webElementXpaths>
+</WebElementEntity>
