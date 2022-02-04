@@ -119,7 +119,7 @@ not_run: WebUI.click(findTestObject('Order_Med/Page_HM Web/button_Order'))
 
 WebUI.click(findTestObject('Object/Page_HM Web/th_Order for continue'))
 
-for (def row = 1; row <= 5; row++) {
+for (def row = 6; row <= 10; row++) {
     WebUI.click(findTestObject('Order_Med/Page_HM Web/a_Med'))
 
     WebUI.setText(findTestObject('Order_Med/Page_HM Web/input_HM_004Desc'), findTestData('ExcelData_Drug').getValue('itemname', 
