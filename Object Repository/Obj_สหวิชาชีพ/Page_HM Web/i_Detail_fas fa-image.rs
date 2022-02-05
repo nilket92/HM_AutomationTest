@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Detail_fas fa-image</name>
+   <tag></tag>
+   <elementGuidId>9c456972-5341-4ed7-94f1-f1c94223b1b1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.fas.fa-image</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dv_button_command']/div/div/button[2]/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fas fa-image</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;multidisciplinary&quot;)/nurse-note-list[1]/nurse-note[@class=&quot;ng-star-inserted&quot;]/div[@id=&quot;dv_button_command&quot;]/div[@class=&quot;row ng-star-inserted&quot;]/div[@class=&quot;col-12 mb-2&quot;]/button[@class=&quot;btn btn-sm btn-st1&quot;]/i[@class=&quot;fas fa-image&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dv_button_command']/div/div/button[2]/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/button[2]/i</value>
+   </webElementXpaths>
+</WebElementEntity>

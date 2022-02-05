@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestOrderDoc" time="336.951" tests="2" failures="0" errors="0">
+   <testsuite name="TestOrderDoc" tests="2" failures="0" errors="0" time="336.951" skipped="0" timestamp="2022-02-04 15:28:46" hostname="thega - DESKTOP-M8L3GBA" id="Test Suites/TestOrderDoc">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\thega\\Katalon Studio\\HM_AutomationTest\\Reports\\20220204_152839\\TestOrderDoc\\20220204_152839"/>
+         <property name="logFiles" value="C:\\Users\\thega\\Katalon Studio\\HM_AutomationTest\\Reports\\20220204_152839\\TestOrderDoc\\20220204_152839\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="thega - DESKTOP-M8L3GBA"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 98.0.4758.82"/>
+         <property name="hostAddress" value="192.168.0.12"/>
+         <property name="sessionId" value="c4ea71a0cd51bbf8b26389dae2221338"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_Object_OrderDoc/Obj_OrderMed" time="258.469" classname="Test Cases/TC_Object_OrderDoc/Obj_OrderMed" status="PASSED">
+         <system-out><![CDATA[2022-02-04 15:28:46 - [TEST_CASE][PASSED] - Test Cases/TC_Object_OrderDoc/Obj_OrderMed: Test Cases/TC_Object_OrderDoc/Obj_OrderMed
+
+2022-02-04 15:28:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-04 15:28:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-04 15:28:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-04 15:28:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-04 15:28:57 - [TEST_STEP][PASSED] - navigateToUrl("http://43.229.79.185/hmdev/#/login"): Navigate to 'http://43.229.79.185/hmdev/#/login' successfully
+
+2022-02-04 15:28:59 - [MESSAGE][PASSED] - Navigate to 'http://43.229.79.185/hmdev/#/login' successfully
+
+2022-02-04 15:28:59 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Welcome to HM Systems_username"), "00020"): Text '00020' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Welcome to HM Systems_username'
+
+2022-02-04 15:29:00 - [MESSAGE][PASSED] - Text '00020' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Welcome to HM Systems_username'
+
+2022-02-04 15:29:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Order_Med/Page_HM Web/input_Welcome to HM Systems_password"), "1lNO57yZFUU="): Text ****** has been set on object 'Object Repository/Order_Med/Page_HM Web/input_Welcome to HM Systems_password'
+
+2022-02-04 15:29:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Order_Med/Page_HM Web/input_Welcome to HM Systems_password'
+
+2022-02-04 15:29:00 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Login")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Login' is clicked on
+
+2022-02-04 15:29:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Login' is clicked on
+
+2022-02-04 15:29:01 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span_IPD")): Object: 'Object Repository/Order_Med/Page_HM Web/span_IPD' is clicked on
+
+2022-02-04 15:29:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span_IPD' is clicked on
+
+2022-02-04 15:29:03 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/label_06 MS33")): Object: 'Object Repository/Order_Med/Page_HM Web/label_06 MS33' is clicked on
+
+2022-02-04 15:29:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/label_06 MS33' is clicked on
+
+2022-02-04 15:29:04 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/div_29 xxxxHN 0019295 26012022 1720")): Object: 'Object Repository/Order_Med/Page_HM Web/div_29 xxxxHN 0019295 26012022 1720' is clicked on
+
+2022-02-04 15:29:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/div_29 xxxxHN 0019295 26012022 1720' is clicked on
+
+2022-02-04 15:29:05 - [TEST_STEP][PASSED] - for ([row = 1, row <= 1, (row++)]): Object: 'Object Repository/ProgressionNote/Page_HM Web/btn_Order' is clicked on
+
+2022-02-04 15:29:05 - [TEST_STEP][PASSED] - click(findTestObject("ProgressionNote/Page_HM Web/tab_Progression note")): Object: 'Object Repository/ProgressionNote/Page_HM Web/tab_Progression note' is clicked on
+
+2022-02-04 15:29:11 - [MESSAGE][PASSED] - Object: 'Object Repository/ProgressionNote/Page_HM Web/tab_Progression note' is clicked on
+
+2022-02-04 15:29:11 - [TEST_STEP][PASSED] - setText(findTestObject("ProgressionNote/Page_HM Web/txt_progressS"), findTestData("ExcelData_ProgressioNote").getValue("S", row)): Text '#R/O pericarditis' is set on object 'Object Repository/ProgressionNote/Page_HM Web/txt_progressS'
+
+2022-02-04 15:29:12 - [MESSAGE][PASSED] - Text '#R/O pericarditis' is set on object 'Object Repository/ProgressionNote/Page_HM Web/txt_progressS'
+
+2022-02-04 15:29:12 - [TEST_STEP][PASSED] - setText(findTestObject("ProgressionNote/Page_HM Web/txt_progressO"), findTestData("ExcelData_ProgressioNote").getValue("O", row)): Text 'Temp: 36.5
+BPMax: 100
+BPMin: 72
+PR: 66
+RR: 22
+O2Sat: 98
+CVP: 
+o2 3lpm ' is set on object 'Object Repository/ProgressionNote/Page_HM Web/txt_progressO'
+
+2022-02-04 15:29:13 - [MESSAGE][PASSED] - Text 'Temp: 36.5
+BPMax: 100
+BPMin: 72
+PR: 66
+RR: 22
+O2Sat: 98
+CVP: 
+o2 3lpm ' is set on object 'Object Repository/ProgressionNote/Page_HM Web/txt_progressO'
+
+2022-02-04 15:29:13 - [TEST_STEP][PASSED] - setText(findTestObject("ProgressionNote/Page_HM Web/txt_progressA"), findTestData("ExcelData_ProgressioNote").getValue("A", row)): Text 'Test Data Progression From  Excel Katalon**' is set on object 'Object Repository/ProgressionNote/Page_HM Web/txt_progressA'
+
+2022-02-04 15:29:14 - [MESSAGE][PASSED] - Text 'Test Data Progression From  Excel Katalon**' is set on object 'Object Repository/ProgressionNote/Page_HM Web/txt_progressA'
+
+2022-02-04 15:29:14 - [TEST_STEP][PASSED] - setText(findTestObject("ProgressionNote/Page_HM Web/txt_progressP"), findTestData("ExcelData_ProgressioNote").getValue("P", row)): Text 'ppppppppp' is set on object 'Object Repository/ProgressionNote/Page_HM Web/txt_progressP'
+
+2022-02-04 15:29:15 - [MESSAGE][PASSED] - Text 'ppppppppp' is set on object 'Object Repository/ProgressionNote/Page_HM Web/txt_progressP'
+
+2022-02-04 15:29:15 - [TEST_STEP][PASSED] - click(findTestObject("ProgressionNote/Page_HM Web/btn_save")): Object: 'Object Repository/ProgressionNote/Page_HM Web/btn_save' is clicked on
+
+2022-02-04 15:29:16 - [MESSAGE][PASSED] - Object: 'Object Repository/ProgressionNote/Page_HM Web/btn_save' is clicked on
+
+2022-02-04 15:29:16 - [TEST_STEP][PASSED] - click(findTestObject("ProgressionNote/Page_HM Web/btn_Order")): Object: 'Object Repository/ProgressionNote/Page_HM Web/btn_Order' is clicked on
+
+2022-02-04 15:29:17 - [MESSAGE][PASSED] - Object: 'Object Repository/ProgressionNote/Page_HM Web/btn_Order' is clicked on
+
+2022-02-04 15:29:17 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/th_Order for one day")): Object: 'Object Repository/Order_Med/Page_HM Web/th_Order for one day' is clicked on
+
+2022-02-04 15:29:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/th_Order for one day' is clicked on
+
+2022-02-04 15:29:19 - [TEST_STEP][PASSED] - for ([rowmed = 1, rowmed <= 5, (rowmed++)]): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:29:19 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/a_Med")): Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 15:29:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 15:29:20 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), findTestData("ExcelData_Drug").getValue("itemname", rowmed)): Text '10 mg AMLODIPINE TAB (ทCน2) 1' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 15:29:21 - [MESSAGE][PASSED] - Text '10 mg AMLODIPINE TAB (ทCน2) 1' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 15:29:21 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), findTestData("ExcelData_Drug").getValue("administrationUsage", rowmed)): Text 'รับประทานครั้งละ 1 เม็ด วันละ 1 ครั้ง หลังอาหารเช้า  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 15:29:23 - [MESSAGE][PASSED] - Text 'รับประทานครั้งละ 1 เม็ด วันละ 1 ครั้ง หลังอาหารเช้า  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 15:29:23 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), findTestData("ExcelData_Drug").getValue("dose", rowmed)): Text '10' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 15:29:25 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 15:29:25 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), findTestData("ExcelData_Drug").getValue("description", rowmed)): Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 15:29:26 - [MESSAGE][PASSED] - Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 15:29:26 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:29:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:29:27 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:29:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:29:27 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Save")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:29:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:29:28 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/a_Med")): Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 15:29:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 15:29:29 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), findTestData("ExcelData_Drug").getValue("itemname", rowmed)): Text '20 mg EnaLaPril TAB (ทC1,D2,3น2,C30) 2' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 15:29:30 - [MESSAGE][PASSED] - Text '20 mg EnaLaPril TAB (ทC1,D2,3น2,C30) 2' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 15:29:30 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), findTestData("ExcelData_Drug").getValue("administrationUsage", rowmed)): Text 'รับประทานครั้งละ 1 เม็ด วันละ 1 ครั้ง หลังอาหารเช้า  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 15:29:32 - [MESSAGE][PASSED] - Text 'รับประทานครั้งละ 1 เม็ด วันละ 1 ครั้ง หลังอาหารเช้า  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 15:29:32 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), findTestData("ExcelData_Drug").getValue("dose", rowmed)): Text '11' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 15:29:34 - [MESSAGE][PASSED] - Text '11' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 15:29:34 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), findTestData("ExcelData_Drug").getValue("description", rowmed)): Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 15:29:35 - [MESSAGE][PASSED] - Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 15:29:35 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:29:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:29:35 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:29:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:29:36 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Save")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:29:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:29:36 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/a_Med")): Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 15:29:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 15:29:37 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), findTestData("ExcelData_Drug").getValue("itemname", rowmed)): Text '(ซอง) ACETYLCYSTEINE 100 mg -NED 3' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 15:29:38 - [MESSAGE][PASSED] - Text '(ซอง) ACETYLCYSTEINE 100 mg -NED 3' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 15:29:38 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), findTestData("ExcelData_Drug").getValue("administrationUsage", rowmed)): Text 'รับประทานครั้งละ 1 ซอง วันละ 3 ครั้ง หลังอาหาร เช้า-กลางวัน-เย็น  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 15:29:40 - [MESSAGE][PASSED] - Text 'รับประทานครั้งละ 1 ซอง วันละ 3 ครั้ง หลังอาหาร เช้า-กลางวัน-เย็น  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 15:29:40 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), findTestData("ExcelData_Drug").getValue("dose", rowmed)): Text '12' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 15:29:42 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 15:29:42 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), findTestData("ExcelData_Drug").getValue("description", rowmed)): Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 15:29:43 - [MESSAGE][PASSED] - Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 15:29:43 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:29:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:29:44 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:29:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:29:44 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Save")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:29:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:29:45 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/a_Med")): Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 15:29:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 15:29:46 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), findTestData("ExcelData_Drug").getValue("itemname", rowmed)): Text '(บีโรดูออล)BERODUAL INH 200 doses(ทC1น3) 4' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 15:29:47 - [MESSAGE][PASSED] - Text '(บีโรดูออล)BERODUAL INH 200 doses(ทC1น3) 4' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 15:29:47 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), findTestData("ExcelData_Drug").getValue("administrationUsage", rowmed)): Text 'พ่นเวลาหอบ 1 ครั้ง เวลาหอบ,เหนื่อย  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 15:29:49 - [MESSAGE][PASSED] - Text 'พ่นเวลาหอบ 1 ครั้ง เวลาหอบ,เหนื่อย  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 15:29:49 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), findTestData("ExcelData_Drug").getValue("dose", rowmed)): Text '13' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 15:29:51 - [MESSAGE][PASSED] - Text '13' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 15:29:51 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), findTestData("ExcelData_Drug").getValue("description", rowmed)): Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 15:29:52 - [MESSAGE][PASSED] - Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 15:29:52 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:29:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:29:53 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:29:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:29:53 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Save")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:29:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:29:54 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/a_Med")): Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 15:29:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 15:29:55 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), findTestData("ExcelData_Drug").getValue("itemname", rowmed)): Text 'Guaifenesine 100 mg Tab (ทA,น2/3) 5' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 15:29:56 - [MESSAGE][PASSED] - Text 'Guaifenesine 100 mg Tab (ทA,น2/3) 5' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 15:29:56 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), findTestData("ExcelData_Drug").getValue("administrationUsage", rowmed)): Text 'รับประทานครั้งละ 1 เม็ด วันละ 3 ครั้ง หลังอาหาร เช้า-กลางวัน-เย็น  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 15:29:58 - [MESSAGE][PASSED] - Text 'รับประทานครั้งละ 1 เม็ด วันละ 3 ครั้ง หลังอาหาร เช้า-กลางวัน-เย็น  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 15:29:58 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), findTestData("ExcelData_Drug").getValue("dose", rowmed)): Text '14' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 15:30:01 - [MESSAGE][PASSED] - Text '14' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 15:30:01 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), findTestData("ExcelData_Drug").getValue("description", rowmed)): Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 15:30:02 - [MESSAGE][PASSED] - Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 15:30:02 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:30:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:30:03 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:30:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:30:03 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Save")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:30:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:30:04 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Submit")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Submit' is clicked on
+
+2022-02-04 15:30:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Submit' is clicked on
+
+2022-02-04 15:30:05 - [TEST_STEP][NOT_RUN] - click(findTestObject("Order_Med/Page_HM Web/button_Order")): NOT_RUN: click(findTestObject("Order_Med/Page_HM Web/button_Order"))
+
+2022-02-04 15:30:05 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Order_Med/Page_HM Web/button_Order"))
+
+2022-02-04 15:30:05 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/th_Order for one day")): Object: 'Object Repository/Order_Med/Page_HM Web/th_Order for one day' is clicked on
+
+2022-02-04 15:30:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/th_Order for one day' is clicked on
+
+2022-02-04 15:30:06 - [TEST_STEP][PASSED] - for ([rowmedcon = 6, rowmedcon <= 10, (rowmedcon++)]): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:30:06 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/a_Med")): Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 15:30:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 15:30:07 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat")
+
+2022-02-04 15:30:07 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat")
+
+2022-02-04 15:30:07 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), findTestData("ExcelData_Drug").getValue("itemname", rowmedcon)): Text 'คลายเส้น -TOLPERISONE 50 mg(ทD,น3)-NED 6' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 15:30:08 - [MESSAGE][PASSED] - Text 'คลายเส้น -TOLPERISONE 50 mg(ทD,น3)-NED 6' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 15:30:08 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), findTestData("ExcelData_Drug").getValue("administrationUsage", rowmedcon)): Text 'รับประทานครั้งละ 1 เม็ด วันละ 3 ครั้ง หลังอาหาร เช้า-กลางวัน-เย็น  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 15:30:11 - [MESSAGE][PASSED] - Text 'รับประทานครั้งละ 1 เม็ด วันละ 3 ครั้ง หลังอาหาร เช้า-กลางวัน-เย็น  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 15:30:11 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), findTestData("ExcelData_Drug").getValue("dose", rowmedcon)): Text '15' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 15:30:14 - [MESSAGE][PASSED] - Text '15' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 15:30:14 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), findTestData("ExcelData_Drug").getValue("description", rowmedcon)): Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 15:30:14 - [MESSAGE][PASSED] - Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 15:30:14 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 15:30:14 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 15:30:14 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 15:30:14 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 15:30:14 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 15:30:14 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 15:30:14 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:30:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:30:15 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Save")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:30:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:30:15 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/a_Med")): Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 15:30:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 15:30:16 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat")
+
+2022-02-04 15:30:16 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat")
+
+2022-02-04 15:30:16 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), findTestData("ExcelData_Drug").getValue("itemname", rowmedcon)): Text 'TRAMADOL 50 mg CAP (ทDน4,C30) 7' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 15:30:17 - [MESSAGE][PASSED] - Text 'TRAMADOL 50 mg CAP (ทDน4,C30) 7' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 15:30:17 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), findTestData("ExcelData_Drug").getValue("administrationUsage", rowmedcon)): Text 'รับประทานครั้งละ 1 เม็ด วันละ2 ครั้ง หลังอาหารเช้า-เย็น  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 15:30:19 - [MESSAGE][PASSED] - Text 'รับประทานครั้งละ 1 เม็ด วันละ2 ครั้ง หลังอาหารเช้า-เย็น  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 15:30:19 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), findTestData("ExcelData_Drug").getValue("dose", rowmedcon)): Text '16' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 15:30:22 - [MESSAGE][PASSED] - Text '16' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 15:30:22 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), findTestData("ExcelData_Drug").getValue("description", rowmedcon)): Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 15:30:23 - [MESSAGE][PASSED] - Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 15:30:23 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 15:30:23 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 15:30:23 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 15:30:23 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 15:30:23 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 15:30:23 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 15:30:23 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:30:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:30:23 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Save")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:30:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:30:24 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/a_Med")): Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 15:30:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 15:30:25 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat")
+
+2022-02-04 15:30:25 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat")
+
+2022-02-04 15:30:25 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), findTestData("ExcelData_Drug").getValue("itemname", rowmedcon)): Text 'Minoxidil 5 mg TAB 8' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 15:30:26 - [MESSAGE][PASSED] - Text 'Minoxidil 5 mg TAB 8' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 15:30:26 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), findTestData("ExcelData_Drug").getValue("administrationUsage", rowmedcon)): Text 'รับประทานครั้งละ 0.5 เม็ด วันละ 1 ครั้ง เช้า  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 15:30:28 - [MESSAGE][PASSED] - Text 'รับประทานครั้งละ 0.5 เม็ด วันละ 1 ครั้ง เช้า  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 15:30:28 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), findTestData("ExcelData_Drug").getValue("dose", rowmedcon)): Text '17' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 15:30:30 - [MESSAGE][PASSED] - Text '17' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 15:30:30 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), findTestData("ExcelData_Drug").getValue("description", rowmedcon)): Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 15:30:31 - [MESSAGE][PASSED] - Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 15:30:31 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 15:30:31 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 15:30:31 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 15:30:31 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 15:30:31 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 15:30:31 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 15:30:31 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:30:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:30:31 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Save")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:30:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:30:32 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/a_Med")): Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 15:30:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 15:30:33 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat")
+
+2022-02-04 15:30:33 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat")
+
+2022-02-04 15:30:33 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), findTestData("ExcelData_Drug").getValue("itemname", rowmedcon)): Text '(IPD) 1 unit INSULIN 70/30  (ทAน1) 9 ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 15:30:34 - [MESSAGE][PASSED] - Text '(IPD) 1 unit INSULIN 70/30  (ทAน1) 9 ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 15:30:34 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), findTestData("ExcelData_Drug").getValue("administrationUsage", rowmedcon)): Text 'ฉีดเข้าใต้ผิวหนัง 10 ยูนิต ก่อนอาหารเช้า และ 8 ยูนิต ก่อนอาหารเย็น  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 15:30:37 - [MESSAGE][PASSED] - Text 'ฉีดเข้าใต้ผิวหนัง 10 ยูนิต ก่อนอาหารเช้า และ 8 ยูนิต ก่อนอาหารเย็น  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 15:30:37 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), findTestData("ExcelData_Drug").getValue("dose", rowmedcon)): Text '18' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 15:30:40 - [MESSAGE][PASSED] - Text '18' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 15:30:40 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), findTestData("ExcelData_Drug").getValue("description", rowmedcon)): Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 15:30:41 - [MESSAGE][PASSED] - Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 15:30:41 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 15:30:41 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 15:30:41 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 15:30:41 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 15:30:41 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 15:30:41 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 15:30:41 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:30:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:30:41 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Save")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:30:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:30:42 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/a_Med")): Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 15:30:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 15:30:43 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat")
+
+2022-02-04 15:30:43 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat")
+
+2022-02-04 15:30:43 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), findTestData("ExcelData_Drug").getValue("itemname", rowmedcon)): Text '1 gm CEFTRIAXONE  INJ (Cef-3) (ทBน2) 10' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 15:30:44 - [MESSAGE][PASSED] - Text '1 gm CEFTRIAXONE  INJ (Cef-3) (ทBน2) 10' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 15:30:44 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), findTestData("ExcelData_Drug").getValue("administrationUsage", rowmedcon)): Text '2 gm iv q 12 hr ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 15:30:48 - [MESSAGE][PASSED] - Text '2 gm iv q 12 hr ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 15:30:48 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), findTestData("ExcelData_Drug").getValue("dose", rowmedcon)): Text '19' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 15:30:49 - [MESSAGE][PASSED] - Text '19' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 15:30:49 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), findTestData("ExcelData_Drug").getValue("description", rowmedcon)): Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 15:30:50 - [MESSAGE][PASSED] - Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 15:30:50 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 15:30:50 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 15:30:50 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 15:30:50 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 15:30:50 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 15:30:50 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 15:30:50 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:30:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:30:51 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Save")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:30:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:30:51 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Submit")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Submit' is clicked on
+
+2022-02-04 15:30:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Submit' is clicked on
+
+2022-02-04 15:30:52 - [TEST_STEP][NOT_RUN] - click(findTestObject("Order_Med/Page_HM Web/button_Order")): NOT_RUN: click(findTestObject("Order_Med/Page_HM Web/button_Order"))
+
+2022-02-04 15:30:52 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Order_Med/Page_HM Web/button_Order"))
+
+2022-02-04 15:30:52 - [TEST_STEP][NOT_RUN] - click(findTestObject("Order_Med/Page_HM Web/button_Order")): NOT_RUN: click(findTestObject("Order_Med/Page_HM Web/button_Order"))
+
+2022-02-04 15:30:52 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Order_Med/Page_HM Web/button_Order"))
+
+2022-02-04 15:30:52 - [TEST_STEP][PASSED] - click(findTestObject("Object/Page_HM Web/th_Order for continue")): Object: 'Object Repository/Object/Page_HM Web/th_Order for continue' is clicked on
+
+2022-02-04 15:30:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Object/Page_HM Web/th_Order for continue' is clicked on
+
+2022-02-04 15:30:54 - [TEST_STEP][PASSED] - for ([row = 6, row <= 10, (row++)]): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:30:54 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/a_Med")): Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 15:30:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 15:30:55 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), findTestData("ExcelData_Drug").getValue("itemname", row)): Text 'คลายเส้น -TOLPERISONE 50 mg(ทD,น3)-NED 6' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 15:30:56 - [MESSAGE][PASSED] - Text 'คลายเส้น -TOLPERISONE 50 mg(ทD,น3)-NED 6' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 15:30:56 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), findTestData("ExcelData_Drug").getValue("administrationUsage", row)): Text 'รับประทานครั้งละ 1 เม็ด วันละ 3 ครั้ง หลังอาหาร เช้า-กลางวัน-เย็น  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 15:31:01 - [MESSAGE][PASSED] - Text 'รับประทานครั้งละ 1 เม็ด วันละ 3 ครั้ง หลังอาหาร เช้า-กลางวัน-เย็น  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 15:31:01 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), findTestData("ExcelData_Drug").getValue("dose", row)): Text '15' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 15:31:06 - [MESSAGE][PASSED] - Text '15' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 15:31:06 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), findTestData("ExcelData_Drug").getValue("description", row)): Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 15:31:07 - [MESSAGE][PASSED] - Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 15:31:07 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 gg"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 gg")
+
+2022-02-04 15:31:07 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 gg")
+
+2022-02-04 15:31:07 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 15:31:07 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 15:31:07 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 15:31:07 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 15:31:07 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 15:31:07 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 15:31:07 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:31:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:31:07 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:31:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:31:08 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Save")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:31:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:31:08 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/a_Med")): Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 15:31:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 15:31:09 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), findTestData("ExcelData_Drug").getValue("itemname", row)): Text 'TRAMADOL 50 mg CAP (ทDน4,C30) 7' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 15:31:10 - [MESSAGE][PASSED] - Text 'TRAMADOL 50 mg CAP (ทDน4,C30) 7' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 15:31:10 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), findTestData("ExcelData_Drug").getValue("administrationUsage", row)): Text 'รับประทานครั้งละ 1 เม็ด วันละ2 ครั้ง หลังอาหารเช้า-เย็น  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 15:31:14 - [MESSAGE][PASSED] - Text 'รับประทานครั้งละ 1 เม็ด วันละ2 ครั้ง หลังอาหารเช้า-เย็น  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 15:31:14 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), findTestData("ExcelData_Drug").getValue("dose", row)): Text '16' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 15:31:19 - [MESSAGE][PASSED] - Text '16' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 15:31:19 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), findTestData("ExcelData_Drug").getValue("description", row)): Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 15:31:19 - [MESSAGE][PASSED] - Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 15:31:19 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 gg"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 gg")
+
+2022-02-04 15:31:19 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 gg")
+
+2022-02-04 15:31:19 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 15:31:19 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 15:31:19 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 15:31:19 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 15:31:19 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 15:31:19 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 15:31:19 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:31:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:31:20 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:31:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:31:20 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Save")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:31:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:31:21 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/a_Med")): Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 15:31:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 15:31:22 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), findTestData("ExcelData_Drug").getValue("itemname", row)): Text 'Minoxidil 5 mg TAB 8' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 15:31:23 - [MESSAGE][PASSED] - Text 'Minoxidil 5 mg TAB 8' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 15:31:23 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), findTestData("ExcelData_Drug").getValue("administrationUsage", row)): Text 'รับประทานครั้งละ 0.5 เม็ด วันละ 1 ครั้ง เช้า  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 15:31:26 - [MESSAGE][PASSED] - Text 'รับประทานครั้งละ 0.5 เม็ด วันละ 1 ครั้ง เช้า  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 15:31:26 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), findTestData("ExcelData_Drug").getValue("dose", row)): Text '17' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 15:31:29 - [MESSAGE][PASSED] - Text '17' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 15:31:29 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), findTestData("ExcelData_Drug").getValue("description", row)): Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 15:31:30 - [MESSAGE][PASSED] - Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 15:31:30 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 gg"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 gg")
+
+2022-02-04 15:31:30 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 gg")
+
+2022-02-04 15:31:30 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 15:31:30 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 15:31:30 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 15:31:30 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 15:31:30 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 15:31:30 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 15:31:30 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:31:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:31:31 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:31:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:31:31 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Save")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:31:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:31:32 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/a_Med")): Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 15:31:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 15:31:33 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), findTestData("ExcelData_Drug").getValue("itemname", row)): Text '(IPD) 1 unit INSULIN 70/30  (ทAน1) 9 ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 15:31:34 - [MESSAGE][PASSED] - Text '(IPD) 1 unit INSULIN 70/30  (ทAน1) 9 ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 15:31:34 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), findTestData("ExcelData_Drug").getValue("administrationUsage", row)): Text 'ฉีดเข้าใต้ผิวหนัง 10 ยูนิต ก่อนอาหารเช้า และ 8 ยูนิต ก่อนอาหารเย็น  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 15:31:39 - [MESSAGE][PASSED] - Text 'ฉีดเข้าใต้ผิวหนัง 10 ยูนิต ก่อนอาหารเช้า และ 8 ยูนิต ก่อนอาหารเย็น  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 15:31:39 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), findTestData("ExcelData_Drug").getValue("dose", row)): Text '18' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 15:31:43 - [MESSAGE][PASSED] - Text '18' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 15:31:43 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), findTestData("ExcelData_Drug").getValue("description", row)): Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 15:31:44 - [MESSAGE][PASSED] - Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 15:31:44 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 gg"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 gg")
+
+2022-02-04 15:31:44 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 gg")
+
+2022-02-04 15:31:44 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 15:31:44 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 15:31:44 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 15:31:44 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 15:31:44 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 15:31:44 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 15:31:44 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:31:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:31:45 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:31:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:31:45 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Save")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:31:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:31:46 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/a_Med")): Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 15:31:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 15:31:47 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), findTestData("ExcelData_Drug").getValue("itemname", row)): Text '1 gm CEFTRIAXONE  INJ (Cef-3) (ทBน2) 10' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 15:31:48 - [MESSAGE][PASSED] - Text '1 gm CEFTRIAXONE  INJ (Cef-3) (ทBน2) 10' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 15:31:48 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), findTestData("ExcelData_Drug").getValue("administrationUsage", row)): Text '2 gm iv q 12 hr ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 15:31:53 - [MESSAGE][PASSED] - Text '2 gm iv q 12 hr ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 15:31:53 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), findTestData("ExcelData_Drug").getValue("dose", row)): Text '19' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 15:31:55 - [MESSAGE][PASSED] - Text '19' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 15:31:55 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), findTestData("ExcelData_Drug").getValue("description", row)): Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 15:31:56 - [MESSAGE][PASSED] - Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 15:31:56 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 gg"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 gg")
+
+2022-02-04 15:31:56 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 gg")
+
+2022-02-04 15:31:56 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 15:31:56 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 15:31:56 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 15:31:56 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 15:31:56 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 15:31:56 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 15:31:56 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:31:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:31:56 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:31:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:31:57 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Save")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:31:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:31:57 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Submit")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Submit' is clicked on
+
+2022-02-04 15:31:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Submit' is clicked on
+
+2022-02-04 15:31:58 - [TEST_STEP][NOT_RUN] - click(findTestObject("Order_Med/Page_HM Web/button_Order")): NOT_RUN: click(findTestObject("Order_Med/Page_HM Web/button_Order"))
+
+2022-02-04 15:31:58 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Order_Med/Page_HM Web/button_Order"))
+
+2022-02-04 15:31:58 - [TEST_STEP][PASSED] - click(findTestObject("Object/Page_HM Web/th_Order for continue")): Object: 'Object Repository/Object/Page_HM Web/th_Order for continue' is clicked on
+
+2022-02-04 15:32:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Object/Page_HM Web/th_Order for continue' is clicked on
+
+2022-02-04 15:32:00 - [TEST_STEP][PASSED] - for ([row = 1, row <= 5, (row++)]): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:32:00 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/a_Med")): Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 15:32:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 15:32:01 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), findTestData("ExcelData_Drug").getValue("itemname", row)): Text '10 mg AMLODIPINE TAB (ทCน2) 1' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 15:32:02 - [MESSAGE][PASSED] - Text '10 mg AMLODIPINE TAB (ทCน2) 1' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 15:32:02 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), findTestData("ExcelData_Drug").getValue("administrationUsage", row)): Text 'รับประทานครั้งละ 1 เม็ด วันละ 1 ครั้ง หลังอาหารเช้า  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 15:32:06 - [MESSAGE][PASSED] - Text 'รับประทานครั้งละ 1 เม็ด วันละ 1 ครั้ง หลังอาหารเช้า  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 15:32:06 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), findTestData("ExcelData_Drug").getValue("dose", row)): Text '10' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 15:32:10 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 15:32:10 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), findTestData("ExcelData_Drug").getValue("description", row)): Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 15:32:11 - [MESSAGE][PASSED] - Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 15:32:11 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat")
+
+2022-02-04 15:32:11 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat")
+
+2022-02-04 15:32:11 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 15:32:11 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 15:32:11 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 15:32:11 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 15:32:11 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 15:32:11 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 15:32:11 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:32:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:32:12 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Save")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:32:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:32:12 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/a_Med")): Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 15:32:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 15:32:13 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), findTestData("ExcelData_Drug").getValue("itemname", row)): Text '20 mg EnaLaPril TAB (ทC1,D2,3น2,C30) 2' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 15:32:14 - [MESSAGE][PASSED] - Text '20 mg EnaLaPril TAB (ทC1,D2,3น2,C30) 2' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 15:32:14 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), findTestData("ExcelData_Drug").getValue("administrationUsage", row)): Text 'รับประทานครั้งละ 1 เม็ด วันละ 1 ครั้ง หลังอาหารเช้า  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 15:32:19 - [MESSAGE][PASSED] - Text 'รับประทานครั้งละ 1 เม็ด วันละ 1 ครั้ง หลังอาหารเช้า  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 15:32:19 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), findTestData("ExcelData_Drug").getValue("dose", row)): Text '11' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 15:32:22 - [MESSAGE][PASSED] - Text '11' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 15:32:22 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), findTestData("ExcelData_Drug").getValue("description", row)): Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 15:32:23 - [MESSAGE][PASSED] - Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 15:32:23 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat")
+
+2022-02-04 15:32:23 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat")
+
+2022-02-04 15:32:23 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 15:32:23 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 15:32:23 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 15:32:23 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 15:32:23 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 15:32:23 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 15:32:23 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:32:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:32:24 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Save")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:32:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:32:24 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/a_Med")): Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 15:32:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 15:32:25 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), findTestData("ExcelData_Drug").getValue("itemname", row)): Text '(ซอง) ACETYLCYSTEINE 100 mg -NED 3' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 15:32:26 - [MESSAGE][PASSED] - Text '(ซอง) ACETYLCYSTEINE 100 mg -NED 3' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 15:32:26 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), findTestData("ExcelData_Drug").getValue("administrationUsage", row)): Text 'รับประทานครั้งละ 1 ซอง วันละ 3 ครั้ง หลังอาหาร เช้า-กลางวัน-เย็น  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 15:32:31 - [MESSAGE][PASSED] - Text 'รับประทานครั้งละ 1 ซอง วันละ 3 ครั้ง หลังอาหาร เช้า-กลางวัน-เย็น  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 15:32:31 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), findTestData("ExcelData_Drug").getValue("dose", row)): Text '12' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 15:32:35 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 15:32:35 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), findTestData("ExcelData_Drug").getValue("description", row)): Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 15:32:36 - [MESSAGE][PASSED] - Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 15:32:36 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat")
+
+2022-02-04 15:32:36 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat")
+
+2022-02-04 15:32:36 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 15:32:36 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 15:32:36 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 15:32:36 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 15:32:36 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 15:32:36 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 15:32:36 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:32:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:32:37 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Save")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:32:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:32:37 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/a_Med")): Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 15:32:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 15:32:38 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), findTestData("ExcelData_Drug").getValue("itemname", row)): Text '(บีโรดูออล)BERODUAL INH 200 doses(ทC1น3) 4' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 15:32:39 - [MESSAGE][PASSED] - Text '(บีโรดูออล)BERODUAL INH 200 doses(ทC1น3) 4' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 15:32:39 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), findTestData("ExcelData_Drug").getValue("administrationUsage", row)): Text 'พ่นเวลาหอบ 1 ครั้ง เวลาหอบ,เหนื่อย  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 15:32:44 - [MESSAGE][PASSED] - Text 'พ่นเวลาหอบ 1 ครั้ง เวลาหอบ,เหนื่อย  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 15:32:44 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), findTestData("ExcelData_Drug").getValue("dose", row)): Text '13' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 15:32:47 - [MESSAGE][PASSED] - Text '13' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 15:32:47 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), findTestData("ExcelData_Drug").getValue("description", row)): Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 15:32:48 - [MESSAGE][PASSED] - Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 15:32:48 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat")
+
+2022-02-04 15:32:48 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat")
+
+2022-02-04 15:32:48 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 15:32:48 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 15:32:48 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 15:32:48 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 15:32:48 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 15:32:48 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 15:32:48 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:32:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:32:49 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Save")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:32:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:32:49 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/a_Med")): Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 15:32:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 15:32:50 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), findTestData("ExcelData_Drug").getValue("itemname", row)): Text 'Guaifenesine 100 mg Tab (ทA,น2/3) 5' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 15:32:51 - [MESSAGE][PASSED] - Text 'Guaifenesine 100 mg Tab (ทA,น2/3) 5' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 15:32:51 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), findTestData("ExcelData_Drug").getValue("administrationUsage", row)): Text 'รับประทานครั้งละ 1 เม็ด วันละ 3 ครั้ง หลังอาหาร เช้า-กลางวัน-เย็น  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 15:32:55 - [MESSAGE][PASSED] - Text 'รับประทานครั้งละ 1 เม็ด วันละ 3 ครั้ง หลังอาหาร เช้า-กลางวัน-เย็น  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 15:32:55 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), findTestData("ExcelData_Drug").getValue("dose", row)): Text '14' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 15:33:01 - [MESSAGE][PASSED] - Text '14' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 15:33:01 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), findTestData("ExcelData_Drug").getValue("description", row)): Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 15:33:01 - [MESSAGE][PASSED] - Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 15:33:01 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat")
+
+2022-02-04 15:33:01 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat")
+
+2022-02-04 15:33:01 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 15:33:01 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 15:33:01 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 15:33:01 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 15:33:01 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 15:33:01 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 15:33:01 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:33:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 15:33:02 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Save")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:33:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 15:33:02 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Submit")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Submit' is clicked on
+
+2022-02-04 15:33:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Submit' is clicked on
+
+2022-02-04 15:33:03 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Order")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Order' is clicked on
+
+2022-02-04 15:33:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Order' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Flow_OrderNurse" time="78.113" classname="Test Cases/Flow_OrderNurse" status="PASSED">
+         <system-out><![CDATA[2022-02-04 15:33:05 - [TEST_CASE][PASSED] - Test Cases/Flow_OrderNurse: Test Cases/Flow_OrderNurse
+
+2022-02-04 15:33:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-04 15:33:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-02-04 15:33:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-04 15:33:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-04 15:33:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-04 15:33:24 - [TEST_STEP][PASSED] - navigateToUrl("http://43.229.79.185/hmdev/#/login"): Navigate to 'http://43.229.79.185/hmdev/#/login' successfully
+
+2022-02-04 15:33:32 - [MESSAGE][PASSED] - Navigate to 'http://43.229.79.185/hmdev/#/login' successfully
+
+2022-02-04 15:33:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Obj_Nurse/Page_HM Web/input_Welcome to HM Systems_username"), "00023"): Text '00023' is set on object 'Object Repository/Obj_Nurse/Page_HM Web/input_Welcome to HM Systems_username'
+
+2022-02-04 15:33:34 - [MESSAGE][PASSED] - Text '00023' is set on object 'Object Repository/Obj_Nurse/Page_HM Web/input_Welcome to HM Systems_username'
+
+2022-02-04 15:33:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Obj_Nurse/Page_HM Web/div_Login")): Object: 'Object Repository/Obj_Nurse/Page_HM Web/div_Login' is clicked on
+
+2022-02-04 15:33:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Obj_Nurse/Page_HM Web/div_Login' is clicked on
+
+2022-02-04 15:33:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Obj_Nurse/Page_HM Web/input_Welcome to HM Systems_password"), "1lNO57yZFUU="): Text ****** has been set on object 'Object Repository/Obj_Nurse/Page_HM Web/input_Welcome to HM Systems_password'
+
+2022-02-04 15:33:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Obj_Nurse/Page_HM Web/input_Welcome to HM Systems_password'
+
+2022-02-04 15:33:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Obj_Nurse/Page_HM Web/input_Welcome to HM Systems_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Obj_Nurse/Page_HM Web/input_Welcome to HM Systems_password'
+
+2022-02-04 15:33:35 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Obj_Nurse/Page_HM Web/input_Welcome to HM Systems_password'
+
+2022-02-04 15:33:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Obj_Nurse/Page_HM Web/span_IPD")): Object: 'Object Repository/Obj_Nurse/Page_HM Web/span_IPD' is clicked on
+
+2022-02-04 15:33:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Obj_Nurse/Page_HM Web/span_IPD' is clicked on
+
+2022-02-04 15:33:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Obj_Nurse/Page_HM Web/label_03")): Object: 'Object Repository/Obj_Nurse/Page_HM Web/label_03' is clicked on
+
+2022-02-04 15:33:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Obj_Nurse/Page_HM Web/label_03' is clicked on
+
+2022-02-04 15:33:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Obj_Nurse/Page_HM Web/label_06 MS33")): Object: 'Object Repository/Obj_Nurse/Page_HM Web/label_06 MS33' is clicked on
+
+2022-02-04 15:33:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Obj_Nurse/Page_HM Web/label_06 MS33' is clicked on
+
+2022-02-04 15:33:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Obj_Nurse/Page_HM Web/div_29 xxxxHN 0019295 26012022 1720")): Object: 'Object Repository/Obj_Nurse/Page_HM Web/div_29 xxxxHN 0019295 26012022 1720' is clicked on
+
+2022-02-04 15:33:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Obj_Nurse/Page_HM Web/div_29 xxxxHN 0019295 26012022 1720' is clicked on
+
+2022-02-04 15:33:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Obj_Nurse/Page_HM Web/i_BW - HT -_fas fa-bed")): Object: 'Object Repository/Obj_Nurse/Page_HM Web/i_BW - HT -_fas fa-bed' is clicked on
+
+2022-02-04 15:33:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Obj_Nurse/Page_HM Web/i_BW - HT -_fas fa-bed' is clicked on
+
+2022-02-04 15:33:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Obj_Nurse/Page_HM Web/div_xxxx  37 xxxxHN 5702822 17122021 1133")): Object: 'Object Repository/Obj_Nurse/Page_HM Web/div_xxxx  37 xxxxHN 5702822 17122021 1133' is clicked on
+
+2022-02-04 15:33:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Obj_Nurse/Page_HM Web/div_xxxx  37 xxxxHN 5702822 17122021 1133' is clicked on
+
+2022-02-04 15:33:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Obj_Nurse/Page_HM Web/button_Receive")): Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Receive' is clicked on
+
+2022-02-04 15:33:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Receive' is clicked on
+
+2022-02-04 15:33:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Obj_Nurse/Page_HM Web/button_Receive")): Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Receive' is clicked on
+
+2022-02-04 15:34:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Receive' is clicked on
+
+2022-02-04 15:34:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Obj_Nurse/Page_HM Web/button_Receive")): Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Receive' is clicked on
+
+2022-02-04 15:34:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Receive' is clicked on
+
+2022-02-04 15:34:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Obj_Nurse/Page_HM Web/button_Receive")): Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Receive' is clicked on
+
+2022-02-04 15:34:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Receive' is clicked on
+
+2022-02-04 15:34:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Obj_Nurse/Page_HM Web/button_Receive")): Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Receive' is clicked on
+
+2022-02-04 15:34:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Receive' is clicked on
+
+2022-02-04 15:34:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Obj_Nurse/Page_HM Web/button_Receive")): Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Receive' is clicked on
+
+2022-02-04 15:34:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Receive' is clicked on
+
+2022-02-04 15:34:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Obj_Nurse/Page_HM Web/button_Receive")): Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Receive' is clicked on
+
+2022-02-04 15:34:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Receive' is clicked on
+
+2022-02-04 15:34:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Obj_Nurse/Page_HM Web/button_Receive")): Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Receive' is clicked on
+
+2022-02-04 15:34:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Receive' is clicked on
+
+2022-02-04 15:34:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Obj_Nurse/Page_HM Web/button_Receive")): Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Receive' is clicked on
+
+2022-02-04 15:34:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Receive' is clicked on
+
+2022-02-04 15:34:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Obj_Nurse/Page_HM Web/button_Receive")): Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Receive' is clicked on
+
+2022-02-04 15:34:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Receive' is clicked on
+
+2022-02-04 15:34:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Obj_Nurse/Page_HM Web/button_Receive")): Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Receive' is clicked on
+
+2022-02-04 15:34:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Receive' is clicked on
+
+2022-02-04 15:34:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Obj_Nurse/Page_HM Web/button_Receive")): Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Receive' is clicked on
+
+2022-02-04 15:34:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Receive' is clicked on
+
+2022-02-04 15:34:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Obj_Nurse/Page_HM Web/button_Receive")): Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Receive' is clicked on
+
+2022-02-04 15:34:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Receive' is clicked on
+
+2022-02-04 15:34:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Obj_Nurse/Page_HM Web/button_Receive")): Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Receive' is clicked on
+
+2022-02-04 15:34:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Receive' is clicked on
+
+2022-02-04 15:34:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Obj_Nurse/Page_HM Web/button_Receive")): Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Receive' is clicked on
+
+2022-02-04 15:34:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Receive' is clicked on
+
+2022-02-04 15:34:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Obj_Nurse/Page_HM Web/button_Receive")): Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Receive' is clicked on
+
+2022-02-04 15:34:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Receive' is clicked on
+
+2022-02-04 15:34:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Obj_Nurse/Page_HM Web/button_Receive")): Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Receive' is clicked on
+
+2022-02-04 15:34:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Receive' is clicked on
+
+2022-02-04 15:34:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Obj_Nurse/Page_HM Web/button_Receive")): Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Receive' is clicked on
+
+2022-02-04 15:34:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Receive' is clicked on
+
+2022-02-04 15:34:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Obj_Nurse/Page_HM Web/button_Receive")): Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Receive' is clicked on
+
+2022-02-04 15:34:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Receive' is clicked on
+
+2022-02-04 15:34:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Obj_Nurse/Page_HM Web/button_Receive")): Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Receive' is clicked on
+
+2022-02-04 15:34:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Receive' is clicked on
+
+2022-02-04 15:34:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Obj_Nurse/Page_HM Web/button_Order")): Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Order' is clicked on
+
+2022-02-04 15:34:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Obj_Nurse/Page_HM Web/button_Order' is clicked on
+
+2022-02-04 15:34:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-02-04 15:34:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-04 15:28:46 - [TEST_SUITE][PASSED] - TestOrderDoc: Test Cases/Flow_OrderNurse]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

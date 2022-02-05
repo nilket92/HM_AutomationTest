@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuitFlowOrder" time="30.507" tests="1" failures="1" errors="0">
+   <testsuite name="TestSuitFlowOrder" tests="1" failures="1" errors="0" time="30.507" skipped="0" timestamp="2022-02-04 14:55:50" hostname="thega - DESKTOP-M8L3GBA" id="Test Suites/TestSuitFlowOrder">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\thega\\Katalon Studio\\HM_AutomationTest\\Reports\\20220204_145503\\TestSuitFlowOrder\\20220204_145548"/>
+         <property name="logFiles" value="C:\\Users\\thega\\Katalon Studio\\HM_AutomationTest\\Reports\\20220204_145503\\TestSuitFlowOrder\\20220204_145548\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\thega\\Katalon Studio\\HM_AutomationTest\\Reports\\20220204_145503\\TestSuitFlowOrder\\20220204_145548\\1643961381235.png"/>
+         <property name="hostName" value="thega - DESKTOP-M8L3GBA"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 98.0.4758.82"/>
+         <property name="hostAddress" value="192.168.0.12"/>
+         <property name="sessionId" value="dd9b4c9b292ef4d538f6104ecd14144d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Flow_OrderDoc" time="30.232" classname="Test Cases/Flow_OrderDoc" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Flow_OrderDoc FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Order_Med/Page_HM Web/div_29 xxxxHN 0019295 26012022 1720'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Flow_OrderDoc.run(Flow_OrderDoc:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1643961348070.run(TempTestSuite1643961348070.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Order_Med/Page_HM Web/div_29 xxxxHN 0019295 26012022 1720' located by '(.//*[normalize-space(text()) and normalize-space(.)='กลับบ้าน'])[8]/following::div[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-02-04 14:55:51 - [TEST_CASE][FAILED] - Test Cases/Flow_OrderDoc: Test Cases/Flow_OrderDoc FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Order_Med/Page_HM Web/div_29 xxxxHN 0019295 26012022 1720'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Flow_OrderDoc.run(Flow_OrderDoc:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1643961348070.run(TempTestSuite1643961348070.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Order_Med/Page_HM Web/div_29 xxxxHN 0019295 26012022 1720' located by '(.//*[normalize-space(text()) and normalize-space(.)='กลับบ้าน'])[8]/following::div[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-02-04 14:55:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-04 14:55:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-04 14:55:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-04 14:55:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-04 14:55:54 - [TEST_STEP][PASSED] - navigateToUrl("http://43.229.79.185/hmdev/#/login"): Navigate to 'http://43.229.79.185/hmdev/#/login' successfully
+
+2022-02-04 14:55:59 - [MESSAGE][PASSED] - Navigate to 'http://43.229.79.185/hmdev/#/login' successfully
+
+2022-02-04 14:55:59 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Welcome to HM Systems_username"), "00020"): Text '00020' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Welcome to HM Systems_username'
+
+2022-02-04 14:56:00 - [MESSAGE][PASSED] - Text '00020' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Welcome to HM Systems_username'
+
+2022-02-04 14:56:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Order_Med/Page_HM Web/input_Welcome to HM Systems_password"), "1lNO57yZFUU="): Text ****** has been set on object 'Object Repository/Order_Med/Page_HM Web/input_Welcome to HM Systems_password'
+
+2022-02-04 14:56:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Order_Med/Page_HM Web/input_Welcome to HM Systems_password'
+
+2022-02-04 14:56:00 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Login")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Login' is clicked on
+
+2022-02-04 14:56:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Login' is clicked on
+
+2022-02-04 14:56:01 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span_IPD")): Object: 'Object Repository/Order_Med/Page_HM Web/span_IPD' is clicked on
+
+2022-02-04 14:56:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span_IPD' is clicked on
+
+2022-02-04 14:56:03 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/label_06 MS33")): Object: 'Object Repository/Order_Med/Page_HM Web/label_06 MS33' is clicked on
+
+2022-02-04 14:56:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/label_06 MS33' is clicked on
+
+2022-02-04 14:56:04 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/div_29 xxxxHN 0019295 26012022 1720")): Object: 'Object Repository/Order_Med/Page_HM Web/div_29 xxxxHN 0019295 26012022 1720' is clicked on
+
+2022-02-04 14:56:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/div_29 xxxxHN 0019295 26012022 1720' is clicked on
+
+2022-02-04 14:56:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-04 14:56:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-02-04 14:56:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-04 14:56:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-04 14:56:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-04 14:56:07 - [TEST_STEP][PASSED] - navigateToUrl("http://43.229.79.185/hmdev/#/login"): Navigate to 'http://43.229.79.185/hmdev/#/login' successfully
+
+2022-02-04 14:56:10 - [MESSAGE][PASSED] - Navigate to 'http://43.229.79.185/hmdev/#/login' successfully
+
+2022-02-04 14:56:10 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Welcome to HM Systems_username"), "00023"): Text '00023' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Welcome to HM Systems_username'
+
+2022-02-04 14:56:11 - [MESSAGE][PASSED] - Text '00023' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Welcome to HM Systems_username'
+
+2022-02-04 14:56:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Order_Med/Page_HM Web/input_Welcome to HM Systems_password"), "1lNO57yZFUU="): Text ****** has been set on object 'Object Repository/Order_Med/Page_HM Web/input_Welcome to HM Systems_password'
+
+2022-02-04 14:56:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Order_Med/Page_HM Web/input_Welcome to HM Systems_password'
+
+2022-02-04 14:56:11 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Login")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Login' is clicked on
+
+2022-02-04 14:56:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Login' is clicked on
+
+2022-02-04 14:56:12 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span_IPD")): Object: 'Object Repository/Order_Med/Page_HM Web/span_IPD' is clicked on
+
+2022-02-04 14:56:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span_IPD' is clicked on
+
+2022-02-04 14:56:14 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/label_06 MS33")): Object: 'Object Repository/Order_Med/Page_HM Web/label_06 MS33' is clicked on
+
+2022-02-04 14:56:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/label_06 MS33' is clicked on
+
+2022-02-04 14:56:15 - [TEST_STEP][FAILED] - click(findTestObject("Order_Med/Page_HM Web/div_29 xxxxHN 0019295 26012022 1720")): Unable to click on object 'Object Repository/Order_Med/Page_HM Web/div_29 xxxxHN 0019295 26012022 1720' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Order_Med/Page_HM Web/div_29 xxxxHN 0019295 26012022 1720'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Flow_OrderDoc.run(Flow_OrderDoc:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1643961348070.run(TempTestSuite1643961348070.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Order_Med/Page_HM Web/div_29 xxxxHN 0019295 26012022 1720' located by '(.//*[normalize-space(text()) and normalize-space(.)='กลับบ้าน'])[8]/following::div[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1643960058268.run(Script1643960058268.groovy:50)
+	... 13 more
+)
+
+2022-02-04 14:56:17 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='กลับบ้าน'])[8]/following::div[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-04 14:56:17 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Order_Med/Page_HM Web/div_29 xxxxHN 0019295 26012022 1720'. Try using Self-healing.
+
+2022-02-04 14:56:18 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='กลับบ้าน'])[8]/following::div[3]'.
+
+2022-02-04 14:56:18 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='ย้ายเตียง'])[8]/following::div[3]'.
+
+2022-02-04 14:56:18 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[8]/nb-card/div[2]'.
+
+2022-02-04 14:56:19 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[(text() = 'นางสาว.เกมส์ เกมส์เพศ  29หมอไทย xxxxHN 0019295วันที่ 26/01/2022 17:20' or . = 'นางสาว.เกมส์ เกมส์เพศ  29หมอไทย xxxxHN 0019295วันที่ 26/01/2022 17:20')]'.
+
+2022-02-04 14:56:20 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = 'นางสาว.เกมส์ เกมส์เพศ  29หมอไทย xxxxHN 0019295วันที่ 26/01/2022 17:20' or . = 'นางสาว.เกมส์ เกมส์เพศ  29หมอไทย xxxxHN 0019295วันที่ 26/01/2022 17:20')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-04 14:56:21 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-04 14:56:21 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Order_Med/Page_HM Web/div_29 xxxxHN 0019295 26012022 1720' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Order_Med/Page_HM Web/div_29 xxxxHN 0019295 26012022 1720'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Flow_OrderDoc.run(Flow_OrderDoc:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1643961348070.run(TempTestSuite1643961348070.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Order_Med/Page_HM Web/div_29 xxxxHN 0019295 26012022 1720' located by '(.//*[normalize-space(text()) and normalize-space(.)='กลับบ้าน'])[8]/following::div[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1643960058268.run(Script1643960058268.groovy:50)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\thega\\Katalon Studio\\HM_AutomationTest\\Reports\\20220204_145503\\TestSuitFlowOrder\\20220204_145548\\1643961381235.png]]]]></system-out>
+         <system-err><![CDATA[2022-02-04 14:55:51 - [TEST_CASE][FAILED] - Test Cases/Flow_OrderDoc: Test Cases/Flow_OrderDoc FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Order_Med/Page_HM Web/div_29 xxxxHN 0019295 26012022 1720'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Flow_OrderDoc.run(Flow_OrderDoc:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1643961348070.run(TempTestSuite1643961348070.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Order_Med/Page_HM Web/div_29 xxxxHN 0019295 26012022 1720' located by '(.//*[normalize-space(text()) and normalize-space(.)='กลับบ้าน'])[8]/following::div[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-04 14:55:50 - [TEST_SUITE][FAILED] - TestSuitFlowOrder: Test Cases/Flow_OrderDoc FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Order_Med/Page_HM Web/div_29 xxxxHN 0019295 26012022 1720'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Flow_OrderDoc.run(Flow_OrderDoc:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1643961348070.run(TempTestSuite1643961348070.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Order_Med/Page_HM Web/div_29 xxxxHN 0019295 26012022 1720' located by '(.//*[normalize-space(text()) and normalize-space(.)='กลับบ้าน'])[8]/following::div[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-02-04 14:55:50 - [TEST_SUITE][FAILED] - TestSuitFlowOrder: Test Cases/Flow_OrderDoc FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Order_Med/Page_HM Web/div_29 xxxxHN 0019295 26012022 1720'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Flow_OrderDoc.run(Flow_OrderDoc:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1643961348070.run(TempTestSuite1643961348070.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Order_Med/Page_HM Web/div_29 xxxxHN 0019295 26012022 1720' located by '(.//*[normalize-space(text()) and normalize-space(.)='กลับบ้าน'])[8]/following::div[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

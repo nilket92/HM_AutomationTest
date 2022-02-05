@@ -1,0 +1,66 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestOrderDoc,Chrome 98.0.4758.82,,,2022-02-04 15:28:46,2022-02-04 15:34:23,5m - 36.951s,PASSED
+,,,,,,,
+Test Cases/TC_Object_OrderDoc/Obj_OrderMed,Chrome 98.0.4758.82,,,2022-02-04 15:28:46,2022-02-04 15:33:05,4m - 18.469s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-04 15:28:48,2022-02-04 15:28:57,8.236s,PASSED
+"navigateToUrl(""http://43.229.79.185/hmdev/#/login"")",Chrome 98.0.4758.82,,,2022-02-04 15:28:57,2022-02-04 15:28:59,2.166s,PASSED
+"setText(findTestObject(""Order_Med/Page_HM Web/input_Welcome to HM Systems_username""), ""00020"")",Chrome 98.0.4758.82,,,2022-02-04 15:28:59,2022-02-04 15:29:00,1.142s,PASSED
+"setEncryptedText(findTestObject(""Order_Med/Page_HM Web/input_Welcome to HM Systems_password""), ""1lNO57yZFUU="")",Chrome 98.0.4758.82,,,2022-02-04 15:29:00,2022-02-04 15:29:00,0.476s,PASSED
+"click(findTestObject(""Order_Med/Page_HM Web/button_Login""))",Chrome 98.0.4758.82,,,2022-02-04 15:29:00,2022-02-04 15:29:01,0.492s,PASSED
+"click(findTestObject(""Order_Med/Page_HM Web/span_IPD""))",Chrome 98.0.4758.82,,,2022-02-04 15:29:01,2022-02-04 15:29:03,2.513s,PASSED
+"click(findTestObject(""Order_Med/Page_HM Web/label_06 MS33""))",Chrome 98.0.4758.82,,,2022-02-04 15:29:03,2022-02-04 15:29:04,0.821s,PASSED
+"click(findTestObject(""Order_Med/Page_HM Web/div_29 xxxxHN 0019295 26012022 1720""))",Chrome 98.0.4758.82,,,2022-02-04 15:29:04,2022-02-04 15:29:05,0.715s,PASSED
+"for ([row = 1, row <= 1, (row++)])",Chrome 98.0.4758.82,,,2022-02-04 15:29:05,2022-02-04 15:29:17,12.153s,PASSED
+"click(findTestObject(""Order_Med/Page_HM Web/th_Order for one day""))",Chrome 98.0.4758.82,,,2022-02-04 15:29:17,2022-02-04 15:29:19,2.266s,PASSED
+"for ([rowmed = 1, rowmed <= 5, (rowmed++)])",Chrome 98.0.4758.82,,,2022-02-04 15:29:19,2022-02-04 15:30:04,44.663s,PASSED
+"click(findTestObject(""Order_Med/Page_HM Web/button_Submit""))",Chrome 98.0.4758.82,,,2022-02-04 15:30:04,2022-02-04 15:30:05,0.959s,PASSED
+"click(findTestObject(""Order_Med/Page_HM Web/button_Order""))",Chrome 98.0.4758.82,,,2022-02-04 15:30:05,2022-02-04 15:30:05,0.001s,NOT_RUN
+"click(findTestObject(""Order_Med/Page_HM Web/th_Order for one day""))",Chrome 98.0.4758.82,,,2022-02-04 15:30:05,2022-02-04 15:30:06,1.435s,PASSED
+"for ([rowmedcon = 6, rowmedcon <= 10, (rowmedcon++)])",Chrome 98.0.4758.82,,,2022-02-04 15:30:06,2022-02-04 15:30:51,44.968s,PASSED
+"click(findTestObject(""Order_Med/Page_HM Web/button_Submit""))",Chrome 98.0.4758.82,,,2022-02-04 15:30:51,2022-02-04 15:30:52,0.649s,PASSED
+"click(findTestObject(""Order_Med/Page_HM Web/button_Order""))",Chrome 98.0.4758.82,,,2022-02-04 15:30:52,2022-02-04 15:30:52,0.001s,NOT_RUN
+"click(findTestObject(""Order_Med/Page_HM Web/button_Order""))",Chrome 98.0.4758.82,,,2022-02-04 15:30:52,2022-02-04 15:30:52,0.000s,NOT_RUN
+"click(findTestObject(""Object/Page_HM Web/th_Order for continue""))",Chrome 98.0.4758.82,,,2022-02-04 15:30:52,2022-02-04 15:30:54,1.663s,PASSED
+"for ([row = 6, row <= 10, (row++)])",Chrome 98.0.4758.82,,,2022-02-04 15:30:54,2022-02-04 15:31:57,1m - 3.676s,PASSED
+"click(findTestObject(""Order_Med/Page_HM Web/button_Submit""))",Chrome 98.0.4758.82,,,2022-02-04 15:31:57,2022-02-04 15:31:58,0.651s,PASSED
+"click(findTestObject(""Order_Med/Page_HM Web/button_Order""))",Chrome 98.0.4758.82,,,2022-02-04 15:31:58,2022-02-04 15:31:58,0.000s,NOT_RUN
+"click(findTestObject(""Object/Page_HM Web/th_Order for continue""))",Chrome 98.0.4758.82,,,2022-02-04 15:31:58,2022-02-04 15:32:00,1.643s,PASSED
+"for ([row = 1, row <= 5, (row++)])",Chrome 98.0.4758.82,,,2022-02-04 15:32:00,2022-02-04 15:33:02,1m - 2.600s,PASSED
+"click(findTestObject(""Order_Med/Page_HM Web/button_Submit""))",Chrome 98.0.4758.82,,,2022-02-04 15:33:02,2022-02-04 15:33:03,0.713s,PASSED
+"click(findTestObject(""Order_Med/Page_HM Web/button_Order""))",Chrome 98.0.4758.82,,,2022-02-04 15:33:03,2022-02-04 15:33:05,1.815s,PASSED
+,,,,,,,
+Test Cases/Flow_OrderNurse,Chrome 98.0.4758.82,,,2022-02-04 15:33:05,2022-02-04 15:34:23,1m - 18.113s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-04 15:33:05,2022-02-04 15:33:24,19.068s,PASSED
+"navigateToUrl(""http://43.229.79.185/hmdev/#/login"")",Chrome 98.0.4758.82,,,2022-02-04 15:33:24,2022-02-04 15:33:32,8.233s,PASSED
+"setText(findTestObject(""Object Repository/Obj_Nurse/Page_HM Web/input_Welcome to HM Systems_username""), ""00023"")",Chrome 98.0.4758.82,,,2022-02-04 15:33:32,2022-02-04 15:33:34,1.682s,PASSED
+"click(findTestObject(""Object Repository/Obj_Nurse/Page_HM Web/div_Login""))",Chrome 98.0.4758.82,,,2022-02-04 15:33:34,2022-02-04 15:33:34,0.394s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Obj_Nurse/Page_HM Web/input_Welcome to HM Systems_password""), ""1lNO57yZFUU="")",Chrome 98.0.4758.82,,,2022-02-04 15:33:34,2022-02-04 15:33:35,0.471s,PASSED
+"sendKeys(findTestObject(""Object Repository/Obj_Nurse/Page_HM Web/input_Welcome to HM Systems_password""), Keys.chord(ENTER))",Chrome 98.0.4758.82,,,2022-02-04 15:33:35,2022-02-04 15:33:35,0.381s,PASSED
+"click(findTestObject(""Object Repository/Obj_Nurse/Page_HM Web/span_IPD""))",Chrome 98.0.4758.82,,,2022-02-04 15:33:35,2022-02-04 15:33:39,3.684s,PASSED
+"click(findTestObject(""Object Repository/Obj_Nurse/Page_HM Web/label_03""))",Chrome 98.0.4758.82,,,2022-02-04 15:33:39,2022-02-04 15:33:40,1.011s,PASSED
+"click(findTestObject(""Object Repository/Obj_Nurse/Page_HM Web/label_06 MS33""))",Chrome 98.0.4758.82,,,2022-02-04 15:33:40,2022-02-04 15:33:40,0.431s,PASSED
+"click(findTestObject(""Object Repository/Obj_Nurse/Page_HM Web/div_29 xxxxHN 0019295 26012022 1720""))",Chrome 98.0.4758.82,,,2022-02-04 15:33:40,2022-02-04 15:33:41,0.805s,PASSED
+"click(findTestObject(""Object Repository/Obj_Nurse/Page_HM Web/i_BW - HT -_fas fa-bed""))",Chrome 98.0.4758.82,,,2022-02-04 15:33:41,2022-02-04 15:33:44,3.162s,PASSED
+"click(findTestObject(""Object Repository/Obj_Nurse/Page_HM Web/div_xxxx  37 xxxxHN 5702822 17122021 1133""))",Chrome 98.0.4758.82,,,2022-02-04 15:33:44,2022-02-04 15:33:45,1.063s,PASSED
+"click(findTestObject(""Object Repository/Obj_Nurse/Page_HM Web/button_Receive""))",Chrome 98.0.4758.82,,,2022-02-04 15:33:45,2022-02-04 15:33:48,3.016s,PASSED
+"click(findTestObject(""Object Repository/Obj_Nurse/Page_HM Web/button_Receive""))",Chrome 98.0.4758.82,,,2022-02-04 15:33:48,2022-02-04 15:34:00,11.996s,PASSED
+"click(findTestObject(""Object Repository/Obj_Nurse/Page_HM Web/button_Receive""))",Chrome 98.0.4758.82,,,2022-02-04 15:34:00,2022-02-04 15:34:02,1.257s,PASSED
+"click(findTestObject(""Object Repository/Obj_Nurse/Page_HM Web/button_Receive""))",Chrome 98.0.4758.82,,,2022-02-04 15:34:02,2022-02-04 15:34:03,0.851s,PASSED
+"click(findTestObject(""Object Repository/Obj_Nurse/Page_HM Web/button_Receive""))",Chrome 98.0.4758.82,,,2022-02-04 15:34:03,2022-02-04 15:34:04,1.297s,PASSED
+"click(findTestObject(""Object Repository/Obj_Nurse/Page_HM Web/button_Receive""))",Chrome 98.0.4758.82,,,2022-02-04 15:34:04,2022-02-04 15:34:05,1.224s,PASSED
+"click(findTestObject(""Object Repository/Obj_Nurse/Page_HM Web/button_Receive""))",Chrome 98.0.4758.82,,,2022-02-04 15:34:05,2022-02-04 15:34:06,1.190s,PASSED
+"click(findTestObject(""Object Repository/Obj_Nurse/Page_HM Web/button_Receive""))",Chrome 98.0.4758.82,,,2022-02-04 15:34:06,2022-02-04 15:34:07,0.788s,PASSED
+"click(findTestObject(""Object Repository/Obj_Nurse/Page_HM Web/button_Receive""))",Chrome 98.0.4758.82,,,2022-02-04 15:34:07,2022-02-04 15:34:08,1.237s,PASSED
+"click(findTestObject(""Object Repository/Obj_Nurse/Page_HM Web/button_Receive""))",Chrome 98.0.4758.82,,,2022-02-04 15:34:08,2022-02-04 15:34:10,1.522s,PASSED
+"click(findTestObject(""Object Repository/Obj_Nurse/Page_HM Web/button_Receive""))",Chrome 98.0.4758.82,,,2022-02-04 15:34:10,2022-02-04 15:34:11,1.086s,PASSED
+"click(findTestObject(""Object Repository/Obj_Nurse/Page_HM Web/button_Receive""))",Chrome 98.0.4758.82,,,2022-02-04 15:34:11,2022-02-04 15:34:12,1.210s,PASSED
+"click(findTestObject(""Object Repository/Obj_Nurse/Page_HM Web/button_Receive""))",Chrome 98.0.4758.82,,,2022-02-04 15:34:12,2022-02-04 15:34:13,0.819s,PASSED
+"click(findTestObject(""Object Repository/Obj_Nurse/Page_HM Web/button_Receive""))",Chrome 98.0.4758.82,,,2022-02-04 15:34:13,2022-02-04 15:34:14,1.135s,PASSED
+"click(findTestObject(""Object Repository/Obj_Nurse/Page_HM Web/button_Receive""))",Chrome 98.0.4758.82,,,2022-02-04 15:34:14,2022-02-04 15:34:15,1.071s,PASSED
+"click(findTestObject(""Object Repository/Obj_Nurse/Page_HM Web/button_Receive""))",Chrome 98.0.4758.82,,,2022-02-04 15:34:15,2022-02-04 15:34:16,1.098s,PASSED
+"click(findTestObject(""Object Repository/Obj_Nurse/Page_HM Web/button_Receive""))",Chrome 98.0.4758.82,,,2022-02-04 15:34:16,2022-02-04 15:34:17,1.080s,PASSED
+"click(findTestObject(""Object Repository/Obj_Nurse/Page_HM Web/button_Receive""))",Chrome 98.0.4758.82,,,2022-02-04 15:34:17,2022-02-04 15:34:19,1.534s,PASSED
+"click(findTestObject(""Object Repository/Obj_Nurse/Page_HM Web/button_Receive""))",Chrome 98.0.4758.82,,,2022-02-04 15:34:19,2022-02-04 15:34:20,1.308s,PASSED
+"click(findTestObject(""Object Repository/Obj_Nurse/Page_HM Web/button_Receive""))",Chrome 98.0.4758.82,,,2022-02-04 15:34:20,2022-02-04 15:34:21,0.843s,PASSED
+"click(findTestObject(""Object Repository/Obj_Nurse/Page_HM Web/button_Order""))",Chrome 98.0.4758.82,,,2022-02-04 15:34:21,2022-02-04 15:34:22,1.050s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-04 15:34:22,2022-02-04 15:34:23,0.751s,PASSED

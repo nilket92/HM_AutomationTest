@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TestOrderDoc</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>false</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>2d5dd8c4-6fb5-4f41-a591-57441ae7f287</testSuiteGuid>
+   <testCaseLink>
+      <guid>2d4ed79a-555c-49f9-af37-7871cdfad296</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_Object_OrderDoc/Obj_OrderMed</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5878a41f-504b-4630-87ff-f283a7e7ab2d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>774577b8-811d-4c97-828e-5af5e1e04546</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>60d29121-90f0-4c2a-96bd-a2dc8e6ced16</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>57d97d52-2744-4440-985f-7274b3afeb73</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>864dc7a5-b054-46ba-a97d-836a00ad5c77</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Flow_OrderNurse</testCaseId>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,1402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestOrderDoc" time="277.346" tests="2" failures="1" errors="0">
+   <testsuite name="TestOrderDoc" tests="2" failures="1" errors="0" time="277.346" skipped="0" timestamp="2022-02-04 18:24:01" hostname="thega - DESKTOP-M8L3GBA" id="Test Suites/TestOrderDoc">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\thega\\Katalon Studio\\HM_AutomationTest\\Reports\\20220204_181235\\TestOrderDoc\\20220204_182308"/>
+         <property name="logFiles" value="C:\\Users\\thega\\Katalon Studio\\HM_AutomationTest\\Reports\\20220204_181235\\TestOrderDoc\\20220204_182308\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\thega\\Katalon Studio\\HM_AutomationTest\\Reports\\20220204_181235\\TestOrderDoc\\20220204_182308\\1643974117854.png"/>
+         <property name="hostName" value="thega - DESKTOP-M8L3GBA"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 98.0.4758.82"/>
+         <property name="hostAddress" value="192.168.0.12"/>
+         <property name="sessionId" value="22c4b968ae45008693ee5e7de7c6eb69"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_Object_OrderDoc/Obj_OrderMed" time="254.102" classname="Test Cases/TC_Object_OrderDoc/Obj_OrderMed" status="PASSED">
+         <system-out><![CDATA[2022-02-04 18:24:02 - [TEST_CASE][PASSED] - Test Cases/TC_Object_OrderDoc/Obj_OrderMed: Test Cases/TC_Object_OrderDoc/Obj_OrderMed
+
+2022-02-04 18:24:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-04 18:24:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-04 18:24:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-04 18:24:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-04 18:24:26 - [TEST_STEP][PASSED] - navigateToUrl("http://43.229.79.185/hmdev/#/login"): Navigate to 'http://43.229.79.185/hmdev/#/login' successfully
+
+2022-02-04 18:24:32 - [MESSAGE][PASSED] - Navigate to 'http://43.229.79.185/hmdev/#/login' successfully
+
+2022-02-04 18:24:32 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Welcome to HM Systems_username"), "00020"): Text '00020' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Welcome to HM Systems_username'
+
+2022-02-04 18:24:34 - [MESSAGE][PASSED] - Text '00020' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Welcome to HM Systems_username'
+
+2022-02-04 18:24:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Order_Med/Page_HM Web/input_Welcome to HM Systems_password"), "1lNO57yZFUU="): Text ****** has been set on object 'Object Repository/Order_Med/Page_HM Web/input_Welcome to HM Systems_password'
+
+2022-02-04 18:24:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Order_Med/Page_HM Web/input_Welcome to HM Systems_password'
+
+2022-02-04 18:24:35 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Login")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Login' is clicked on
+
+2022-02-04 18:24:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Login' is clicked on
+
+2022-02-04 18:24:35 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span_IPD")): Object: 'Object Repository/Order_Med/Page_HM Web/span_IPD' is clicked on
+
+2022-02-04 18:24:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span_IPD' is clicked on
+
+2022-02-04 18:24:39 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/label_06 MS33")): Object: 'Object Repository/Order_Med/Page_HM Web/label_06 MS33' is clicked on
+
+2022-02-04 18:24:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/label_06 MS33' is clicked on
+
+2022-02-04 18:24:42 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/div_29 xxxxHN 0019295 26012022 1720")): Object: 'Object Repository/Order_Med/Page_HM Web/div_29 xxxxHN 0019295 26012022 1720' is clicked on
+
+2022-02-04 18:24:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/div_29 xxxxHN 0019295 26012022 1720' is clicked on
+
+2022-02-04 18:24:44 - [TEST_STEP][PASSED] - for ([row = 1, row <= 1, (row++)]): Object: 'Object Repository/ProgressionNote/Page_HM Web/btn_Order' is clicked on
+
+2022-02-04 18:24:44 - [TEST_STEP][PASSED] - click(findTestObject("ProgressionNote/Page_HM Web/tab_Progression note")): Object: 'Object Repository/ProgressionNote/Page_HM Web/tab_Progression note' is clicked on
+
+2022-02-04 18:24:46 - [MESSAGE][PASSED] - Object: 'Object Repository/ProgressionNote/Page_HM Web/tab_Progression note' is clicked on
+
+2022-02-04 18:24:46 - [TEST_STEP][PASSED] - setText(findTestObject("ProgressionNote/Page_HM Web/txt_progressS"), findTestData("ExcelData_ProgressioNote").getValue("S", row)): Text '#R/O pericarditis' is set on object 'Object Repository/ProgressionNote/Page_HM Web/txt_progressS'
+
+2022-02-04 18:24:47 - [MESSAGE][PASSED] - Text '#R/O pericarditis' is set on object 'Object Repository/ProgressionNote/Page_HM Web/txt_progressS'
+
+2022-02-04 18:24:47 - [TEST_STEP][PASSED] - setText(findTestObject("ProgressionNote/Page_HM Web/txt_progressO"), findTestData("ExcelData_ProgressioNote").getValue("O", row)): Text 'Temp: 36.5
+BPMax: 100
+BPMin: 72
+PR: 66
+RR: 22
+O2Sat: 98
+CVP: 
+o2 3lpm ' is set on object 'Object Repository/ProgressionNote/Page_HM Web/txt_progressO'
+
+2022-02-04 18:24:48 - [MESSAGE][PASSED] - Text 'Temp: 36.5
+BPMax: 100
+BPMin: 72
+PR: 66
+RR: 22
+O2Sat: 98
+CVP: 
+o2 3lpm ' is set on object 'Object Repository/ProgressionNote/Page_HM Web/txt_progressO'
+
+2022-02-04 18:24:48 - [TEST_STEP][PASSED] - setText(findTestObject("ProgressionNote/Page_HM Web/txt_progressA"), findTestData("ExcelData_ProgressioNote").getValue("A", row)): Text 'Test Data Progression From  Excel Katalon**' is set on object 'Object Repository/ProgressionNote/Page_HM Web/txt_progressA'
+
+2022-02-04 18:24:50 - [MESSAGE][PASSED] - Text 'Test Data Progression From  Excel Katalon**' is set on object 'Object Repository/ProgressionNote/Page_HM Web/txt_progressA'
+
+2022-02-04 18:24:50 - [TEST_STEP][PASSED] - setText(findTestObject("ProgressionNote/Page_HM Web/txt_progressP"), findTestData("ExcelData_ProgressioNote").getValue("P", row)): Text 'ppppppppp' is set on object 'Object Repository/ProgressionNote/Page_HM Web/txt_progressP'
+
+2022-02-04 18:24:51 - [MESSAGE][PASSED] - Text 'ppppppppp' is set on object 'Object Repository/ProgressionNote/Page_HM Web/txt_progressP'
+
+2022-02-04 18:24:51 - [TEST_STEP][PASSED] - click(findTestObject("ProgressionNote/Page_HM Web/btn_save")): Object: 'Object Repository/ProgressionNote/Page_HM Web/btn_save' is clicked on
+
+2022-02-04 18:24:52 - [MESSAGE][PASSED] - Object: 'Object Repository/ProgressionNote/Page_HM Web/btn_save' is clicked on
+
+2022-02-04 18:24:52 - [TEST_STEP][PASSED] - click(findTestObject("ProgressionNote/Page_HM Web/btn_Order")): Object: 'Object Repository/ProgressionNote/Page_HM Web/btn_Order' is clicked on
+
+2022-02-04 18:24:53 - [MESSAGE][PASSED] - Object: 'Object Repository/ProgressionNote/Page_HM Web/btn_Order' is clicked on
+
+2022-02-04 18:24:53 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/th_Order for one day")): Object: 'Object Repository/Order_Med/Page_HM Web/th_Order for one day' is clicked on
+
+2022-02-04 18:24:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/th_Order for one day' is clicked on
+
+2022-02-04 18:24:58 - [TEST_STEP][PASSED] - for ([rowmed = 1, rowmed <= 5, (rowmed++)]): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:24:58 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/a_Med")): Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 18:25:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 18:25:00 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), findTestData("ExcelData_Drug").getValue("itemname", rowmed)): Text '10 mg AMLODIPINE TAB (ทCน2) 1' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 18:25:01 - [MESSAGE][PASSED] - Text '10 mg AMLODIPINE TAB (ทCน2) 1' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 18:25:01 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), findTestData("ExcelData_Drug").getValue("administrationUsage", rowmed)): Text 'รับประทานครั้งละ 1 เม็ด วันละ 1 ครั้ง หลังอาหารเช้า  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 18:25:03 - [MESSAGE][PASSED] - Text 'รับประทานครั้งละ 1 เม็ด วันละ 1 ครั้ง หลังอาหารเช้า  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 18:25:03 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), findTestData("ExcelData_Drug").getValue("dose", rowmed)): Text '10' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 18:25:05 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 18:25:05 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), findTestData("ExcelData_Drug").getValue("description", rowmed)): Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 18:25:06 - [MESSAGE][PASSED] - Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 18:25:06 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:25:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:25:07 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:25:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:25:07 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Save")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:25:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:25:08 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/a_Med")): Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 18:25:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 18:25:09 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), findTestData("ExcelData_Drug").getValue("itemname", rowmed)): Text '20 mg EnaLaPril TAB (ทC1,D2,3น2,C30) 2' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 18:25:10 - [MESSAGE][PASSED] - Text '20 mg EnaLaPril TAB (ทC1,D2,3น2,C30) 2' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 18:25:10 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), findTestData("ExcelData_Drug").getValue("administrationUsage", rowmed)): Text 'รับประทานครั้งละ 1 เม็ด วันละ 1 ครั้ง หลังอาหารเช้า  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 18:25:12 - [MESSAGE][PASSED] - Text 'รับประทานครั้งละ 1 เม็ด วันละ 1 ครั้ง หลังอาหารเช้า  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 18:25:12 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), findTestData("ExcelData_Drug").getValue("dose", rowmed)): Text '11' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 18:25:14 - [MESSAGE][PASSED] - Text '11' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 18:25:14 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), findTestData("ExcelData_Drug").getValue("description", rowmed)): Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 18:25:15 - [MESSAGE][PASSED] - Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 18:25:15 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:25:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:25:16 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:25:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:25:16 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Save")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:25:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:25:17 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/a_Med")): Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 18:25:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 18:25:18 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), findTestData("ExcelData_Drug").getValue("itemname", rowmed)): Text '(ซอง) ACETYLCYSTEINE 100 mg -NED 3' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 18:25:19 - [MESSAGE][PASSED] - Text '(ซอง) ACETYLCYSTEINE 100 mg -NED 3' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 18:25:19 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), findTestData("ExcelData_Drug").getValue("administrationUsage", rowmed)): Text 'รับประทานครั้งละ 1 ซอง วันละ 3 ครั้ง หลังอาหาร เช้า-กลางวัน-เย็น  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 18:25:22 - [MESSAGE][PASSED] - Text 'รับประทานครั้งละ 1 ซอง วันละ 3 ครั้ง หลังอาหาร เช้า-กลางวัน-เย็น  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 18:25:22 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), findTestData("ExcelData_Drug").getValue("dose", rowmed)): Text '12' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 18:25:25 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 18:25:25 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), findTestData("ExcelData_Drug").getValue("description", rowmed)): Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 18:25:26 - [MESSAGE][PASSED] - Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 18:25:26 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:25:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:25:26 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:25:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:25:27 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Save")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:25:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:25:27 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/a_Med")): Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 18:25:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 18:25:28 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), findTestData("ExcelData_Drug").getValue("itemname", rowmed)): Text '(บีโรดูออล)BERODUAL INH 200 doses(ทC1น3) 4' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 18:25:29 - [MESSAGE][PASSED] - Text '(บีโรดูออล)BERODUAL INH 200 doses(ทC1น3) 4' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 18:25:29 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), findTestData("ExcelData_Drug").getValue("administrationUsage", rowmed)): Text 'พ่นเวลาหอบ 1 ครั้ง เวลาหอบ,เหนื่อย  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 18:25:32 - [MESSAGE][PASSED] - Text 'พ่นเวลาหอบ 1 ครั้ง เวลาหอบ,เหนื่อย  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 18:25:32 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), findTestData("ExcelData_Drug").getValue("dose", rowmed)): Text '13' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 18:25:34 - [MESSAGE][PASSED] - Text '13' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 18:25:34 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), findTestData("ExcelData_Drug").getValue("description", rowmed)): Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 18:25:35 - [MESSAGE][PASSED] - Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 18:25:35 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:25:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:25:36 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:25:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:25:36 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Save")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:25:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:25:37 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/a_Med")): Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 18:25:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 18:25:38 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), findTestData("ExcelData_Drug").getValue("itemname", rowmed)): Text 'Guaifenesine 100 mg Tab (ทA,น2/3) 5' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 18:25:39 - [MESSAGE][PASSED] - Text 'Guaifenesine 100 mg Tab (ทA,น2/3) 5' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 18:25:39 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), findTestData("ExcelData_Drug").getValue("administrationUsage", rowmed)): Text 'รับประทานครั้งละ 1 เม็ด วันละ 3 ครั้ง หลังอาหาร เช้า-กลางวัน-เย็น  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 18:25:42 - [MESSAGE][PASSED] - Text 'รับประทานครั้งละ 1 เม็ด วันละ 3 ครั้ง หลังอาหาร เช้า-กลางวัน-เย็น  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 18:25:42 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), findTestData("ExcelData_Drug").getValue("dose", rowmed)): Text '14' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 18:25:44 - [MESSAGE][PASSED] - Text '14' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 18:25:44 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), findTestData("ExcelData_Drug").getValue("description", rowmed)): Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 18:25:45 - [MESSAGE][PASSED] - Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 18:25:45 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:25:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:25:46 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:25:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:25:46 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Save")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:25:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:25:47 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Submit")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Submit' is clicked on
+
+2022-02-04 18:25:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Submit' is clicked on
+
+2022-02-04 18:25:48 - [TEST_STEP][NOT_RUN] - click(findTestObject("Order_Med/Page_HM Web/button_Order")): NOT_RUN: click(findTestObject("Order_Med/Page_HM Web/button_Order"))
+
+2022-02-04 18:25:48 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Order_Med/Page_HM Web/button_Order"))
+
+2022-02-04 18:25:48 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/th_Order for one day")): Object: 'Object Repository/Order_Med/Page_HM Web/th_Order for one day' is clicked on
+
+2022-02-04 18:25:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/th_Order for one day' is clicked on
+
+2022-02-04 18:25:49 - [TEST_STEP][PASSED] - for ([rowmedcon = 6, rowmedcon <= 10, (rowmedcon++)]): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:25:49 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/a_Med")): Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 18:25:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 18:25:50 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat")
+
+2022-02-04 18:25:50 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat")
+
+2022-02-04 18:25:50 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), findTestData("ExcelData_Drug").getValue("itemname", rowmedcon)): Text 'คลายเส้น -TOLPERISONE 50 mg(ทD,น3)-NED 6' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 18:25:51 - [MESSAGE][PASSED] - Text 'คลายเส้น -TOLPERISONE 50 mg(ทD,น3)-NED 6' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 18:25:51 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), findTestData("ExcelData_Drug").getValue("administrationUsage", rowmedcon)): Text 'รับประทานครั้งละ 1 เม็ด วันละ 3 ครั้ง หลังอาหาร เช้า-กลางวัน-เย็น  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 18:25:54 - [MESSAGE][PASSED] - Text 'รับประทานครั้งละ 1 เม็ด วันละ 3 ครั้ง หลังอาหาร เช้า-กลางวัน-เย็น  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 18:25:54 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), findTestData("ExcelData_Drug").getValue("dose", rowmedcon)): Text '15' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 18:25:57 - [MESSAGE][PASSED] - Text '15' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 18:25:57 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), findTestData("ExcelData_Drug").getValue("description", rowmedcon)): Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 18:25:58 - [MESSAGE][PASSED] - Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 18:25:58 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 18:25:58 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 18:25:58 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 18:25:58 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 18:25:58 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 18:25:58 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 18:25:58 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:25:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:25:58 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Save")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:25:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:25:59 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/a_Med")): Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 18:26:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 18:26:00 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat")
+
+2022-02-04 18:26:00 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat")
+
+2022-02-04 18:26:00 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), findTestData("ExcelData_Drug").getValue("itemname", rowmedcon)): Text 'TRAMADOL 50 mg CAP (ทDน4,C30) 7' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 18:26:01 - [MESSAGE][PASSED] - Text 'TRAMADOL 50 mg CAP (ทDน4,C30) 7' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 18:26:01 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), findTestData("ExcelData_Drug").getValue("administrationUsage", rowmedcon)): Text 'รับประทานครั้งละ 1 เม็ด วันละ2 ครั้ง หลังอาหารเช้า-เย็น  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 18:26:03 - [MESSAGE][PASSED] - Text 'รับประทานครั้งละ 1 เม็ด วันละ2 ครั้ง หลังอาหารเช้า-เย็น  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 18:26:03 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), findTestData("ExcelData_Drug").getValue("dose", rowmedcon)): Text '16' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 18:26:06 - [MESSAGE][PASSED] - Text '16' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 18:26:06 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), findTestData("ExcelData_Drug").getValue("description", rowmedcon)): Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 18:26:07 - [MESSAGE][PASSED] - Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 18:26:07 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 18:26:07 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 18:26:07 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 18:26:07 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 18:26:07 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 18:26:07 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 18:26:07 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:26:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:26:08 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Save")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:26:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:26:08 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/a_Med")): Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 18:26:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 18:26:09 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat")
+
+2022-02-04 18:26:09 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat")
+
+2022-02-04 18:26:09 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), findTestData("ExcelData_Drug").getValue("itemname", rowmedcon)): Text 'Minoxidil 5 mg TAB 8' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 18:26:10 - [MESSAGE][PASSED] - Text 'Minoxidil 5 mg TAB 8' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 18:26:10 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), findTestData("ExcelData_Drug").getValue("administrationUsage", rowmedcon)): Text 'รับประทานครั้งละ 0.5 เม็ด วันละ 1 ครั้ง เช้า  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 18:26:12 - [MESSAGE][PASSED] - Text 'รับประทานครั้งละ 0.5 เม็ด วันละ 1 ครั้ง เช้า  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 18:26:12 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), findTestData("ExcelData_Drug").getValue("dose", rowmedcon)): Text '17' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 18:26:14 - [MESSAGE][PASSED] - Text '17' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 18:26:14 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), findTestData("ExcelData_Drug").getValue("description", rowmedcon)): Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 18:26:15 - [MESSAGE][PASSED] - Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 18:26:15 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 18:26:15 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 18:26:15 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 18:26:15 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 18:26:15 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 18:26:15 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 18:26:15 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:26:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:26:16 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Save")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:26:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:26:16 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/a_Med")): Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 18:26:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 18:26:17 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat")
+
+2022-02-04 18:26:17 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat")
+
+2022-02-04 18:26:17 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), findTestData("ExcelData_Drug").getValue("itemname", rowmedcon)): Text '(IPD) 1 unit INSULIN 70/30  (ทAน1) 9 ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 18:26:18 - [MESSAGE][PASSED] - Text '(IPD) 1 unit INSULIN 70/30  (ทAน1) 9 ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 18:26:18 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), findTestData("ExcelData_Drug").getValue("administrationUsage", rowmedcon)): Text 'ฉีดเข้าใต้ผิวหนัง 10 ยูนิต ก่อนอาหารเช้า และ 8 ยูนิต ก่อนอาหารเย็น  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 18:26:21 - [MESSAGE][PASSED] - Text 'ฉีดเข้าใต้ผิวหนัง 10 ยูนิต ก่อนอาหารเช้า และ 8 ยูนิต ก่อนอาหารเย็น  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 18:26:21 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), findTestData("ExcelData_Drug").getValue("dose", rowmedcon)): Text '18' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 18:26:24 - [MESSAGE][PASSED] - Text '18' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 18:26:24 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), findTestData("ExcelData_Drug").getValue("description", rowmedcon)): Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 18:26:25 - [MESSAGE][PASSED] - Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 18:26:25 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 18:26:25 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 18:26:25 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 18:26:25 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 18:26:25 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 18:26:25 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 18:26:25 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:26:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:26:25 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Save")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:26:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:26:26 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/a_Med")): Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 18:26:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 18:26:27 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat")
+
+2022-02-04 18:26:27 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat")
+
+2022-02-04 18:26:27 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), findTestData("ExcelData_Drug").getValue("itemname", rowmedcon)): Text '1 gm CEFTRIAXONE  INJ (Cef-3) (ทBน2) 10' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 18:26:28 - [MESSAGE][PASSED] - Text '1 gm CEFTRIAXONE  INJ (Cef-3) (ทBน2) 10' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 18:26:28 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), findTestData("ExcelData_Drug").getValue("administrationUsage", rowmedcon)): Text '2 gm iv q 12 hr ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 18:26:31 - [MESSAGE][PASSED] - Text '2 gm iv q 12 hr ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 18:26:31 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), findTestData("ExcelData_Drug").getValue("dose", rowmedcon)): Text '19' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 18:26:32 - [MESSAGE][PASSED] - Text '19' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 18:26:32 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), findTestData("ExcelData_Drug").getValue("description", rowmedcon)): Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 18:26:33 - [MESSAGE][PASSED] - Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 18:26:33 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 18:26:33 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 18:26:33 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 18:26:33 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 18:26:33 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 18:26:33 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 18:26:33 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:26:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:26:34 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Save")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:26:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:26:34 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Submit")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Submit' is clicked on
+
+2022-02-04 18:26:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Submit' is clicked on
+
+2022-02-04 18:26:35 - [TEST_STEP][NOT_RUN] - click(findTestObject("Order_Med/Page_HM Web/button_Order")): NOT_RUN: click(findTestObject("Order_Med/Page_HM Web/button_Order"))
+
+2022-02-04 18:26:35 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Order_Med/Page_HM Web/button_Order"))
+
+2022-02-04 18:26:35 - [TEST_STEP][NOT_RUN] - click(findTestObject("Order_Med/Page_HM Web/button_Order")): NOT_RUN: click(findTestObject("Order_Med/Page_HM Web/button_Order"))
+
+2022-02-04 18:26:35 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Order_Med/Page_HM Web/button_Order"))
+
+2022-02-04 18:26:35 - [TEST_STEP][PASSED] - click(findTestObject("Object/Page_HM Web/th_Order for continue")): Object: 'Object Repository/Object/Page_HM Web/th_Order for continue' is clicked on
+
+2022-02-04 18:26:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Object/Page_HM Web/th_Order for continue' is clicked on
+
+2022-02-04 18:26:36 - [TEST_STEP][PASSED] - for ([row = 6, row <= 10, (row++)]): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:26:36 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/a_Med")): Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 18:26:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 18:26:37 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), findTestData("ExcelData_Drug").getValue("itemname", row)): Text 'คลายเส้น -TOLPERISONE 50 mg(ทD,น3)-NED 6' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 18:26:38 - [MESSAGE][PASSED] - Text 'คลายเส้น -TOLPERISONE 50 mg(ทD,น3)-NED 6' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 18:26:38 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), findTestData("ExcelData_Drug").getValue("administrationUsage", row)): Text 'รับประทานครั้งละ 1 เม็ด วันละ 3 ครั้ง หลังอาหาร เช้า-กลางวัน-เย็น  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 18:26:41 - [MESSAGE][PASSED] - Text 'รับประทานครั้งละ 1 เม็ด วันละ 3 ครั้ง หลังอาหาร เช้า-กลางวัน-เย็น  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 18:26:41 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), findTestData("ExcelData_Drug").getValue("dose", row)): Text '15' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 18:26:44 - [MESSAGE][PASSED] - Text '15' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 18:26:44 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), findTestData("ExcelData_Drug").getValue("description", row)): Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 18:26:45 - [MESSAGE][PASSED] - Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 18:26:45 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 gg"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 gg")
+
+2022-02-04 18:26:45 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 gg")
+
+2022-02-04 18:26:45 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 18:26:45 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 18:26:45 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 18:26:45 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 18:26:45 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 18:26:45 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 18:26:45 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:26:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:26:46 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:26:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:26:46 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Save")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:26:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:26:47 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/a_Med")): Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 18:26:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 18:26:48 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), findTestData("ExcelData_Drug").getValue("itemname", row)): Text 'TRAMADOL 50 mg CAP (ทDน4,C30) 7' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 18:26:49 - [MESSAGE][PASSED] - Text 'TRAMADOL 50 mg CAP (ทDน4,C30) 7' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 18:26:49 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), findTestData("ExcelData_Drug").getValue("administrationUsage", row)): Text 'รับประทานครั้งละ 1 เม็ด วันละ2 ครั้ง หลังอาหารเช้า-เย็น  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 18:26:52 - [MESSAGE][PASSED] - Text 'รับประทานครั้งละ 1 เม็ด วันละ2 ครั้ง หลังอาหารเช้า-เย็น  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 18:26:52 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), findTestData("ExcelData_Drug").getValue("dose", row)): Text '16' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 18:26:55 - [MESSAGE][PASSED] - Text '16' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 18:26:55 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), findTestData("ExcelData_Drug").getValue("description", row)): Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 18:26:56 - [MESSAGE][PASSED] - Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 18:26:56 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 gg"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 gg")
+
+2022-02-04 18:26:56 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 gg")
+
+2022-02-04 18:26:56 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 18:26:56 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 18:26:56 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 18:26:56 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 18:26:56 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 18:26:56 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 18:26:56 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:26:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:26:56 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:26:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:26:57 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Save")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:26:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:26:57 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/a_Med")): Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 18:26:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 18:26:58 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), findTestData("ExcelData_Drug").getValue("itemname", row)): Text 'Minoxidil 5 mg TAB 8' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 18:26:59 - [MESSAGE][PASSED] - Text 'Minoxidil 5 mg TAB 8' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 18:26:59 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), findTestData("ExcelData_Drug").getValue("administrationUsage", row)): Text 'รับประทานครั้งละ 0.5 เม็ด วันละ 1 ครั้ง เช้า  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 18:27:01 - [MESSAGE][PASSED] - Text 'รับประทานครั้งละ 0.5 เม็ด วันละ 1 ครั้ง เช้า  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 18:27:01 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), findTestData("ExcelData_Drug").getValue("dose", row)): Text '17' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 18:27:03 - [MESSAGE][PASSED] - Text '17' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 18:27:03 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), findTestData("ExcelData_Drug").getValue("description", row)): Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 18:27:04 - [MESSAGE][PASSED] - Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 18:27:04 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 gg"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 gg")
+
+2022-02-04 18:27:04 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 gg")
+
+2022-02-04 18:27:04 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 18:27:04 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 18:27:04 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 18:27:04 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 18:27:04 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 18:27:04 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 18:27:04 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:27:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:27:05 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:27:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:27:05 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Save")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:27:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:27:06 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/a_Med")): Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 18:27:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 18:27:07 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), findTestData("ExcelData_Drug").getValue("itemname", row)): Text '(IPD) 1 unit INSULIN 70/30  (ทAน1) 9 ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 18:27:08 - [MESSAGE][PASSED] - Text '(IPD) 1 unit INSULIN 70/30  (ทAน1) 9 ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 18:27:08 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), findTestData("ExcelData_Drug").getValue("administrationUsage", row)): Text 'ฉีดเข้าใต้ผิวหนัง 10 ยูนิต ก่อนอาหารเช้า และ 8 ยูนิต ก่อนอาหารเย็น  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 18:27:11 - [MESSAGE][PASSED] - Text 'ฉีดเข้าใต้ผิวหนัง 10 ยูนิต ก่อนอาหารเช้า และ 8 ยูนิต ก่อนอาหารเย็น  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 18:27:11 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), findTestData("ExcelData_Drug").getValue("dose", row)): Text '18' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 18:27:14 - [MESSAGE][PASSED] - Text '18' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 18:27:14 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), findTestData("ExcelData_Drug").getValue("description", row)): Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 18:27:15 - [MESSAGE][PASSED] - Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 18:27:15 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 gg"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 gg")
+
+2022-02-04 18:27:15 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 gg")
+
+2022-02-04 18:27:15 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 18:27:15 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 18:27:15 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 18:27:15 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 18:27:15 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 18:27:15 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 18:27:15 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:27:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:27:16 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:27:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:27:16 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Save")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:27:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:27:17 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/a_Med")): Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 18:27:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 18:27:18 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), findTestData("ExcelData_Drug").getValue("itemname", row)): Text '1 gm CEFTRIAXONE  INJ (Cef-3) (ทBน2) 10' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 18:27:19 - [MESSAGE][PASSED] - Text '1 gm CEFTRIAXONE  INJ (Cef-3) (ทBน2) 10' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 18:27:19 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), findTestData("ExcelData_Drug").getValue("administrationUsage", row)): Text '2 gm iv q 12 hr ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 18:27:22 - [MESSAGE][PASSED] - Text '2 gm iv q 12 hr ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 18:27:22 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), findTestData("ExcelData_Drug").getValue("dose", row)): Text '19' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 18:27:23 - [MESSAGE][PASSED] - Text '19' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 18:27:23 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), findTestData("ExcelData_Drug").getValue("description", row)): Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 18:27:24 - [MESSAGE][PASSED] - Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 18:27:24 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 gg"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 gg")
+
+2022-02-04 18:27:24 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 gg")
+
+2022-02-04 18:27:24 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 18:27:24 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 18:27:24 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 18:27:24 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 18:27:24 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 18:27:24 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 18:27:24 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:27:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:27:25 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:27:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:27:25 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Save")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:27:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:27:26 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Submit")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Submit' is clicked on
+
+2022-02-04 18:27:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Submit' is clicked on
+
+2022-02-04 18:27:27 - [TEST_STEP][NOT_RUN] - click(findTestObject("Order_Med/Page_HM Web/button_Order")): NOT_RUN: click(findTestObject("Order_Med/Page_HM Web/button_Order"))
+
+2022-02-04 18:27:27 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Order_Med/Page_HM Web/button_Order"))
+
+2022-02-04 18:27:27 - [TEST_STEP][PASSED] - click(findTestObject("Object/Page_HM Web/th_Order for continue")): Object: 'Object Repository/Object/Page_HM Web/th_Order for continue' is clicked on
+
+2022-02-04 18:27:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Object/Page_HM Web/th_Order for continue' is clicked on
+
+2022-02-04 18:27:28 - [TEST_STEP][PASSED] - for ([row = 1, row <= 5, (row++)]): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:27:28 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/a_Med")): Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 18:27:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 18:27:29 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), findTestData("ExcelData_Drug").getValue("itemname", row)): Text '10 mg AMLODIPINE TAB (ทCน2) 1' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 18:27:30 - [MESSAGE][PASSED] - Text '10 mg AMLODIPINE TAB (ทCน2) 1' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 18:27:30 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), findTestData("ExcelData_Drug").getValue("administrationUsage", row)): Text 'รับประทานครั้งละ 1 เม็ด วันละ 1 ครั้ง หลังอาหารเช้า  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 18:27:32 - [MESSAGE][PASSED] - Text 'รับประทานครั้งละ 1 เม็ด วันละ 1 ครั้ง หลังอาหารเช้า  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 18:27:32 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), findTestData("ExcelData_Drug").getValue("dose", row)): Text '10' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 18:27:35 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 18:27:35 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), findTestData("ExcelData_Drug").getValue("description", row)): Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 18:27:36 - [MESSAGE][PASSED] - Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 18:27:36 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat")
+
+2022-02-04 18:27:36 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat")
+
+2022-02-04 18:27:36 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 18:27:36 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 18:27:36 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 18:27:36 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 18:27:36 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 18:27:36 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 18:27:36 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:27:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:27:36 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Save")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:27:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:27:37 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/a_Med")): Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 18:27:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 18:27:38 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), findTestData("ExcelData_Drug").getValue("itemname", row)): Text '20 mg EnaLaPril TAB (ทC1,D2,3น2,C30) 2' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 18:27:39 - [MESSAGE][PASSED] - Text '20 mg EnaLaPril TAB (ทC1,D2,3น2,C30) 2' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 18:27:39 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), findTestData("ExcelData_Drug").getValue("administrationUsage", row)): Text 'รับประทานครั้งละ 1 เม็ด วันละ 1 ครั้ง หลังอาหารเช้า  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 18:27:41 - [MESSAGE][PASSED] - Text 'รับประทานครั้งละ 1 เม็ด วันละ 1 ครั้ง หลังอาหารเช้า  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 18:27:41 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), findTestData("ExcelData_Drug").getValue("dose", row)): Text '11' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 18:27:44 - [MESSAGE][PASSED] - Text '11' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 18:27:44 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), findTestData("ExcelData_Drug").getValue("description", row)): Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 18:27:45 - [MESSAGE][PASSED] - Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 18:27:45 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat")
+
+2022-02-04 18:27:45 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat")
+
+2022-02-04 18:27:45 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 18:27:45 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 18:27:45 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 18:27:45 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 18:27:45 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 18:27:45 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 18:27:45 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:27:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:27:45 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Save")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:27:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:27:46 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/a_Med")): Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 18:27:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 18:27:47 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), findTestData("ExcelData_Drug").getValue("itemname", row)): Text '(ซอง) ACETYLCYSTEINE 100 mg -NED 3' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 18:27:48 - [MESSAGE][PASSED] - Text '(ซอง) ACETYLCYSTEINE 100 mg -NED 3' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 18:27:48 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), findTestData("ExcelData_Drug").getValue("administrationUsage", row)): Text 'รับประทานครั้งละ 1 ซอง วันละ 3 ครั้ง หลังอาหาร เช้า-กลางวัน-เย็น  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 18:27:51 - [MESSAGE][PASSED] - Text 'รับประทานครั้งละ 1 ซอง วันละ 3 ครั้ง หลังอาหาร เช้า-กลางวัน-เย็น  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 18:27:51 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), findTestData("ExcelData_Drug").getValue("dose", row)): Text '12' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 18:27:54 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 18:27:54 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), findTestData("ExcelData_Drug").getValue("description", row)): Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 18:27:55 - [MESSAGE][PASSED] - Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 18:27:55 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat")
+
+2022-02-04 18:27:55 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat")
+
+2022-02-04 18:27:55 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 18:27:55 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 18:27:55 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 18:27:55 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 18:27:55 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 18:27:55 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 18:27:55 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:27:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:27:55 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Save")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:27:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:27:56 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/a_Med")): Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 18:27:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 18:27:57 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), findTestData("ExcelData_Drug").getValue("itemname", row)): Text '(บีโรดูออล)BERODUAL INH 200 doses(ทC1น3) 4' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 18:27:58 - [MESSAGE][PASSED] - Text '(บีโรดูออล)BERODUAL INH 200 doses(ทC1น3) 4' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 18:27:58 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), findTestData("ExcelData_Drug").getValue("administrationUsage", row)): Text 'พ่นเวลาหอบ 1 ครั้ง เวลาหอบ,เหนื่อย  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 18:28:01 - [MESSAGE][PASSED] - Text 'พ่นเวลาหอบ 1 ครั้ง เวลาหอบ,เหนื่อย  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 18:28:01 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), findTestData("ExcelData_Drug").getValue("dose", row)): Text '13' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 18:28:03 - [MESSAGE][PASSED] - Text '13' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 18:28:03 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), findTestData("ExcelData_Drug").getValue("description", row)): Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 18:28:04 - [MESSAGE][PASSED] - Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 18:28:04 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat")
+
+2022-02-04 18:28:04 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat")
+
+2022-02-04 18:28:04 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 18:28:04 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 18:28:04 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 18:28:04 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 18:28:04 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 18:28:04 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 18:28:04 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:28:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:28:05 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Save")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:28:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:28:05 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/a_Med")): Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 18:28:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/a_Med' is clicked on
+
+2022-02-04 18:28:06 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), findTestData("ExcelData_Drug").getValue("itemname", row)): Text 'Guaifenesine 100 mg Tab (ทA,น2/3) 5' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 18:28:07 - [MESSAGE][PASSED] - Text 'Guaifenesine 100 mg Tab (ทA,น2/3) 5' is set on object 'Object Repository/Order_Med/Page_HM Web/input_HM_004Desc'
+
+2022-02-04 18:28:07 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), findTestData("ExcelData_Drug").getValue("administrationUsage", row)): Text 'รับประทานครั้งละ 1 เม็ด วันละ 3 ครั้ง หลังอาหาร เช้า-กลางวัน-เย็น  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 18:28:09 - [MESSAGE][PASSED] - Text 'รับประทานครั้งละ 1 เม็ด วันละ 3 ครั้ง หลังอาหาร เช้า-กลางวัน-เย็น  ' is set on object 'Object Repository/Order_Med/Page_HM Web/input_Med_004Desc'
+
+2022-02-04 18:28:09 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), findTestData("ExcelData_Drug").getValue("dose", row)): Text '14' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 18:28:12 - [MESSAGE][PASSED] - Text '14' is set on object 'Object Repository/Order_Med/Page_HM Web/input__004Desc'
+
+2022-02-04 18:28:12 - [TEST_STEP][PASSED] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), findTestData("ExcelData_Drug").getValue("description", row)): Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 18:28:13 - [MESSAGE][PASSED] - Text '**Test data by katalon**' is set on object 'Object Repository/Order_Med/Page_HM Web/textarea__004Desc'
+
+2022-02-04 18:28:13 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat")
+
+2022-02-04 18:28:13 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_HM_004Desc"), "paracetamol 500 stat")
+
+2022-02-04 18:28:13 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 18:28:13 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input_Med_004Desc"), "วิธีใช้")
+
+2022-02-04 18:28:13 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 18:28:13 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/input__004Desc"), "50")
+
+2022-02-04 18:28:13 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon"): NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 18:28:13 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Order_Med/Page_HM Web/textarea__004Desc"), "Test From Katalon")
+
+2022-02-04 18:28:13 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/span__checkbox-checkmark")): Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:28:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/span__checkbox-checkmark' is clicked on
+
+2022-02-04 18:28:14 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Save")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:28:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Save' is clicked on
+
+2022-02-04 18:28:14 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Submit")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Submit' is clicked on
+
+2022-02-04 18:28:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Submit' is clicked on
+
+2022-02-04 18:28:15 - [TEST_STEP][PASSED] - click(findTestObject("Order_Med/Page_HM Web/button_Order")): Object: 'Object Repository/Order_Med/Page_HM Web/button_Order' is clicked on
+
+2022-02-04 18:28:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Order_Med/Page_HM Web/button_Order' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Flow_OrderNurse" time="22.48" classname="Test Cases/Flow_OrderNurse" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Flow_OrderNurse FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Obj_Nurse/Page_HM Web/span_IPD'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Flow_OrderNurse.run(Flow_OrderNurse:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1643973788363.run(TempTestSuite1643973788363.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=98.0.4758.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-M8L3GBA', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.36 (747e0a0f19c13..., userDataDir: C:\Users\thega\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58155}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 22c4b968ae45008693ee5e7de7c6eb69
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-02-04 18:28:16 - [TEST_CASE][FAILED] - Test Cases/Flow_OrderNurse: Test Cases/Flow_OrderNurse FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Obj_Nurse/Page_HM Web/span_IPD'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Flow_OrderNurse.run(Flow_OrderNurse:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1643973788363.run(TempTestSuite1643973788363.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=98.0.4758.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-M8L3GBA', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.36 (747e0a0f19c13..., userDataDir: C:\Users\thega\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58155}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 22c4b968ae45008693ee5e7de7c6eb69
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-02-04 18:28:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-04 18:28:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-02-04 18:28:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-04 18:28:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-04 18:28:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-04 18:28:28 - [TEST_STEP][PASSED] - navigateToUrl("http://43.229.79.185/hmdev/#/login"): Navigate to 'http://43.229.79.185/hmdev/#/login' successfully
+
+2022-02-04 18:28:32 - [MESSAGE][PASSED] - Navigate to 'http://43.229.79.185/hmdev/#/login' successfully
+
+2022-02-04 18:28:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Obj_Nurse/Page_HM Web/input_Welcome to HM Systems_username"), "00023"): Text '00023' is set on object 'Object Repository/Obj_Nurse/Page_HM Web/input_Welcome to HM Systems_username'
+
+2022-02-04 18:28:34 - [MESSAGE][PASSED] - Text '00023' is set on object 'Object Repository/Obj_Nurse/Page_HM Web/input_Welcome to HM Systems_username'
+
+2022-02-04 18:28:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Obj_Nurse/Page_HM Web/div_Login")): Object: 'Object Repository/Obj_Nurse/Page_HM Web/div_Login' is clicked on
+
+2022-02-04 18:28:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Obj_Nurse/Page_HM Web/div_Login' is clicked on
+
+2022-02-04 18:28:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Obj_Nurse/Page_HM Web/input_Welcome to HM Systems_password"), "1lNO57yZFUU="): Text ****** has been set on object 'Object Repository/Obj_Nurse/Page_HM Web/input_Welcome to HM Systems_password'
+
+2022-02-04 18:28:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Obj_Nurse/Page_HM Web/input_Welcome to HM Systems_password'
+
+2022-02-04 18:28:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Obj_Nurse/Page_HM Web/input_Welcome to HM Systems_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Obj_Nurse/Page_HM Web/input_Welcome to HM Systems_password'
+
+2022-02-04 18:28:35 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Obj_Nurse/Page_HM Web/input_Welcome to HM Systems_password'
+
+2022-02-04 18:28:35 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Obj_Nurse/Page_HM Web/span_IPD")): Unable to click on object 'Object Repository/Obj_Nurse/Page_HM Web/span_IPD' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Obj_Nurse/Page_HM Web/span_IPD'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Flow_OrderNurse.run(Flow_OrderNurse:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1643973788363.run(TempTestSuite1643973788363.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=98.0.4758.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-M8L3GBA', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.36 (747e0a0f19c13..., userDataDir: C:\Users\thega\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58155}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 22c4b968ae45008693ee5e7de7c6eb69
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1643960071937.run(Script1643960071937.groovy:33)
+	... 13 more
+)
+
+2022-02-04 18:28:38 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Obj_Nurse/Page_HM Web/span_IPD' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Obj_Nurse/Page_HM Web/span_IPD'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Flow_OrderNurse.run(Flow_OrderNurse:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1643973788363.run(TempTestSuite1643973788363.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=98.0.4758.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-M8L3GBA', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.36 (747e0a0f19c13..., userDataDir: C:\Users\thega\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58155}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 22c4b968ae45008693ee5e7de7c6eb69
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1643960071937.run(Script1643960071937.groovy:33)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\thega\\Katalon Studio\\HM_AutomationTest\\Reports\\20220204_181235\\TestOrderDoc\\20220204_182308\\1643974117854.png]]]]></system-out>
+         <system-err><![CDATA[2022-02-04 18:28:16 - [TEST_CASE][FAILED] - Test Cases/Flow_OrderNurse: Test Cases/Flow_OrderNurse FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Obj_Nurse/Page_HM Web/span_IPD'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Flow_OrderNurse.run(Flow_OrderNurse:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1643973788363.run(TempTestSuite1643973788363.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=98.0.4758.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-M8L3GBA', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.36 (747e0a0f19c13..., userDataDir: C:\Users\thega\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58155}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 22c4b968ae45008693ee5e7de7c6eb69
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-04 18:24:01 - [TEST_SUITE][FAILED] - TestOrderDoc: Test Cases/Flow_OrderNurse FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Obj_Nurse/Page_HM Web/span_IPD'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Flow_OrderNurse.run(Flow_OrderNurse:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1643973788363.run(TempTestSuite1643973788363.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=98.0.4758.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-M8L3GBA', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.36 (747e0a0f19c13..., userDataDir: C:\Users\thega\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58155}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 22c4b968ae45008693ee5e7de7c6eb69
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-02-04 18:24:01 - [TEST_SUITE][FAILED] - TestOrderDoc: Test Cases/Flow_OrderNurse FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Obj_Nurse/Page_HM Web/span_IPD'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Flow_OrderNurse.run(Flow_OrderNurse:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1643973788363.run(TempTestSuite1643973788363.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=98.0.4758.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-M8L3GBA', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.36 (747e0a0f19c13..., userDataDir: C:\Users\thega\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58155}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 22c4b968ae45008693ee5e7de7c6eb69
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

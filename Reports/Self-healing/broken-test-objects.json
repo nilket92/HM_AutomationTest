@@ -1,3 +1,34 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Order_Med/Page_HM Web/span_IPD",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027ADMIT\u0027])[1]/following::span[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027OPD\u0027])[1]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Order_Med/Page_HM Web/span_IPD_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Order_Med/Page_HM Web/span_IPD",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027ADMIT\u0027])[1]/following::span[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[(text() \u003d \u0027IPD\u0027 or . \u003d \u0027IPD\u0027)]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Order_Med/Page_HM Web/span_IPD_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Obj_สหวิชาชีพ/Page_HM Web/canvas_Save_incomplete_shapes_canvas_whiteboard",
+      "brokenLocator": "//div[@id\u003d\u0027canvasModal_jeodt\u0027]/canvas-whiteboard/div/canvas[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//canvas[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Obj_สหวิชาชีพ/Page_HM Web/canvas_Save_incomplete_shapes_canvas_whiteboard_position.png"
+    }
+  ]
 }

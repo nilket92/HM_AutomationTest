@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestOrderNurse,Chrome 98.0.4758.82,,,2022-02-04 18:12:50,2022-02-04 18:13:17,27.413s,FAILED
+,,,,,,,
+Test Cases/Flow_OrderNurse,Chrome 98.0.4758.82,,,2022-02-04 18:12:50,2022-02-04 18:13:17,26.783s,FAILED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-04 18:12:51,2022-02-04 18:13:03,12.214s,PASSED
+"navigateToUrl(""http://43.229.79.185/hmdev/#/login"")",Chrome 98.0.4758.82,,,2022-02-04 18:13:03,2022-02-04 18:13:12,9.145s,PASSED
+"setText(findTestObject(""Object Repository/Obj_Nurse/Page_HM Web/input_Welcome to HM Systems_username""), ""00023"")",Chrome 98.0.4758.82,,,2022-02-04 18:13:12,2022-02-04 18:13:13,0.625s,PASSED
+"click(findTestObject(""Object Repository/Obj_Nurse/Page_HM Web/div_Login""))",Chrome 98.0.4758.82,,,2022-02-04 18:13:13,2022-02-04 18:13:13,0.284s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Obj_Nurse/Page_HM Web/input_Welcome to HM Systems_password""), ""1lNO57yZFUU="")",Chrome 98.0.4758.82,,,2022-02-04 18:13:13,2022-02-04 18:13:14,0.285s,PASSED
+"sendKeys(findTestObject(""Object Repository/Obj_Nurse/Page_HM Web/input_Welcome to HM Systems_password""), Keys.chord(ENTER))",Chrome 98.0.4758.82,,,2022-02-04 18:13:14,2022-02-04 18:13:14,0.167s,PASSED
+"click(findTestObject(""Object Repository/Obj_Nurse/Page_HM Web/span_IPD""))",Chrome 98.0.4758.82,,,2022-02-04 18:13:14,2022-02-04 18:13:17,3.214s,FAILED

@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Order_Med/Page_HM Web/span_IPD",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027ADMIT\u0027])[1]/following::span[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027OPD\u0027])[1]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220204_145158/TestSuitFlowOrder/20220204_145159/Object Repository/Order_Med/Page_HM Web/span_IPD_neighbor.png"
+    }
+  ]
+}
